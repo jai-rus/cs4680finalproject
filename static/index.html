@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoreKorean</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">한</div>
+          <div>
+            <h1>CoreKorean</h1>
+            <p>MCP vocabulary tutor</p>
+          </div>
+        </div>
+        <nav id="moduleList" class="module-list"></nav>
+        <button id="finalQuizBtn" class="wide-button" type="button">Final Review Quiz</button>
+      </aside>
+
+      <main class="workspace">
+        <section class="topbar">
+          <div>
+            <p id="modeLabel" class="eyebrow">Study</p>
+            <h2 id="moduleTitle">Loading modules...</h2>
+          </div>
+          <div class="progress-wrap">
+            <span id="progressText">0 / 14</span>
+            <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+          </div>
+        </section>
+
+        <section id="studyView" class="study-layout">
+          <article class="word-panel">
+            <div class="word-header">
+              <span id="partOfSpeech" class="tag">noun</span>
+              <span id="wordCounter" class="muted">Word 1</span>
+            </div>
+            <div id="koreanWord" class="korean-word">...</div>
+            <div id="romanization" class="romanization"></div>
+            <div id="englishMeaning" class="meaning"></div>
+            <div class="example-box">
+              <p id="exampleKo"></p>
+              <p id="exampleEn"></p>
+            </div>
+            <div class="writing-box">
+              <div class="writing-head">
+                <label>Tracing practice</label>
+                <button id="clearTraceBtn" type="button">Clear</button>
+              </div>
+              <div class="trace-board">
+                <div id="traceGuide" class="trace-guide"></div>
+                <canvas id="traceCanvas" aria-label="Tracing practice canvas"></canvas>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-panel">
+            <div class="media-header">
+              <h3>Pronunciation Video</h3>
+              <a id="youtubeLink" href="#" target="_blank" rel="noreferrer">Open YouTube</a>
+            </div>
+            <div id="videoSlot" class="video-slot"></div>
+            <p id="videoMeta" class="muted"></p>
+          </article>
+        </section>
+
+        <section id="quizView" class="quiz-view hidden">
+          <div class="quiz-header">
+            <div>
+              <p class="eyebrow">Quiz</p>
+              <h2 id="quizTitle">Module Quiz</h2>
+            </div>
+            <div id="scoreBox" class="score-box">Score: 0 / 0</div>
+          </div>
+          <div id="quizQuestion" class="quiz-question"></div>
+          <div id="quizOptions" class="quiz-options"></div>
+          <div class="typed-answer">
+            <input id="typedAnswer" placeholder="Or type the English meaning">
+            <button id="submitTypedBtn" type="button">Submit</button>
+          </div>
+          <p id="quizFeedback" class="feedback"></p>
+        </section>
+
+        <footer class="controls">
+          <button id="prevBtn" type="button">Previous</button>
+          <button id="nextBtn" type="button">Next</button>
+          <button id="startQuizBtn" class="primary" type="button">Start Module Quiz</button>
+        </footer>
+      </main>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
