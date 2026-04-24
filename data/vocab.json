@@ -1,0 +1,702 @@
+[
+  {
+    "module": "Greetings & Basics",
+    "korean": "안녕하세요",
+    "english": "Hello"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "감사합니다",
+    "english": "Thank you"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "죄송합니다",
+    "english": "I'm sorry"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "이름",
+    "english": "Name"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "학생",
+    "english": "Student"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "선생님",
+    "english": "Teacher"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "네",
+    "english": "Yes"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "아니요",
+    "english": "No"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "반가워요",
+    "english": "Nice to meet you"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "잘 가요",
+    "english": "Goodbye"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "저기요",
+    "english": "Excuse me"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "만나다",
+    "english": "To meet"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "국적",
+    "english": "Nationality"
+  },
+  {
+    "module": "Greetings & Basics",
+    "korean": "직업",
+    "english": "Job"
+  },
+  {
+    "module": "Numbers",
+    "korean": "일/하나",
+    "english": "1"
+  },
+  {
+    "module": "Numbers",
+    "korean": "이/둘",
+    "english": "2"
+  },
+  {
+    "module": "Numbers",
+    "korean": "삼/셋",
+    "english": "3"
+  },
+  {
+    "module": "Numbers",
+    "korean": "사/넷",
+    "english": "4"
+  },
+  {
+    "module": "Numbers",
+    "korean": "오/다섯",
+    "english": "5"
+  },
+  {
+    "module": "Numbers",
+    "korean": "육/여섯",
+    "english": "6"
+  },
+  {
+    "module": "Numbers",
+    "korean": "칠/일곱",
+    "english": "7"
+  },
+  {
+    "module": "Numbers",
+    "korean": "팔/여덟",
+    "english": "8"
+  },
+  {
+    "module": "Numbers",
+    "korean": "구/아홉",
+    "english": "9"
+  },
+  {
+    "module": "Numbers",
+    "korean": "십/열",
+    "english": "10"
+  },
+  {
+    "module": "Numbers",
+    "korean": "백",
+    "english": "100"
+  },
+  {
+    "module": "Numbers",
+    "korean": "천",
+    "english": "1000"
+  },
+  {
+    "module": "Numbers",
+    "korean": "만",
+    "english": "10000"
+  },
+  {
+    "module": "Numbers",
+    "korean": "숫자",
+    "english": "Number"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "음식",
+    "english": "Food"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "물",
+    "english": "Water"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "김치",
+    "english": "Kimchi"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "맛있다",
+    "english": "Delicious"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "맵다",
+    "english": "Spicy"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "짜다",
+    "english": "Salty"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "달다",
+    "english": "Sweet"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "주문",
+    "english": "Order"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "고기",
+    "english": "Meat"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "빵",
+    "english": "Bread"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "배고프다",
+    "english": "Hungry"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "채소",
+    "english": "Vegetable"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "과일",
+    "english": "Fruit"
+  },
+  {
+    "module": "Food & Restaurant",
+    "korean": "음료수",
+    "english": "Beverage"
+  },
+  {
+    "module": "Family & People",
+    "korean": "엄마",
+    "english": "Mother"
+  },
+  {
+    "module": "Family & People",
+    "korean": "아빠",
+    "english": "Father"
+  },
+  {
+    "module": "Family & People",
+    "korean": "형",
+    "english": "Older brother"
+  },
+  {
+    "module": "Family & People",
+    "korean": "누나",
+    "english": "Older sister"
+  },
+  {
+    "module": "Family & People",
+    "korean": "오빠",
+    "english": "Older brother"
+  },
+  {
+    "module": "Family & People",
+    "korean": "언니",
+    "english": "Older sister"
+  },
+  {
+    "module": "Family & People",
+    "korean": "남동생",
+    "english": "Younger brother"
+  },
+  {
+    "module": "Family & People",
+    "korean": "여동생",
+    "english": "Younger sister"
+  },
+  {
+    "module": "Family & People",
+    "korean": "우리",
+    "english": "We/Our"
+  },
+  {
+    "module": "Family & People",
+    "korean": "사람",
+    "english": "Person"
+  },
+  {
+    "module": "Family & People",
+    "korean": "친구",
+    "english": "Friend"
+  },
+  {
+    "module": "Family & People",
+    "korean": "동료",
+    "english": "Colleague"
+  },
+  {
+    "module": "Family & People",
+    "korean": "남자",
+    "english": "Man"
+  },
+  {
+    "module": "Family & People",
+    "korean": "여자",
+    "english": "Woman"
+  },
+  {
+    "module": "Places",
+    "korean": "학교",
+    "english": "School"
+  },
+  {
+    "module": "Places",
+    "korean": "집",
+    "english": "Home"
+  },
+  {
+    "module": "Places",
+    "korean": "카페",
+    "english": "Cafe"
+  },
+  {
+    "module": "Places",
+    "korean": "어디",
+    "english": "Where"
+  },
+  {
+    "module": "Places",
+    "korean": "병원",
+    "english": "Hospital"
+  },
+  {
+    "module": "Places",
+    "korean": "식당",
+    "english": "Restaurant"
+  },
+  {
+    "module": "Places",
+    "korean": "옆",
+    "english": "Beside"
+  },
+  {
+    "module": "Places",
+    "korean": "뒤",
+    "english": "Behind"
+  },
+  {
+    "module": "Places",
+    "korean": "안",
+    "english": "Inside"
+  },
+  {
+    "module": "Places",
+    "korean": "앞",
+    "english": "In front"
+  },
+  {
+    "module": "Places",
+    "korean": "위",
+    "english": "On"
+  },
+  {
+    "module": "Places",
+    "korean": "밑",
+    "english": "Under"
+  },
+  {
+    "module": "Places",
+    "korean": "멀다",
+    "english": "Far"
+  },
+  {
+    "module": "Places",
+    "korean": "가깝다",
+    "english": "Near"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "월요일",
+    "english": "Monday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "화요일",
+    "english": "Tuesday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "수요일",
+    "english": "Wednesday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "목요일",
+    "english": "Thursday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "금요일",
+    "english": "Friday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "토요일",
+    "english": "Saturday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "일요일",
+    "english": "Sunday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "오늘",
+    "english": "Today"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "내일",
+    "english": "Tomorrow"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "어제",
+    "english": "Yesterday"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "주말",
+    "english": "Weekend"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "시",
+    "english": "Hour"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "분",
+    "english": "Minute"
+  },
+  {
+    "module": "Days & Time",
+    "korean": "시간",
+    "english": "Time"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "먹다",
+    "english": "To eat"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "자다",
+    "english": "To sleep"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "가다",
+    "english": "To go"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "보다",
+    "english": "To see/watch"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "공부하다",
+    "english": "To study"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "일하다",
+    "english": "To work"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "사다",
+    "english": "To buy"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "마시다",
+    "english": "To drink"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "듣다",
+    "english": "To listen"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "말하다",
+    "english": "To speak"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "오다",
+    "english": "To come"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "입다",
+    "english": "To wear"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "읽다",
+    "english": "To read"
+  },
+  {
+    "module": "Daily Verbs",
+    "korean": "쓰다",
+    "english": "To write"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "비",
+    "english": "Rain"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "눈",
+    "english": "Snow"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "덥다",
+    "english": "Hot"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "춥다",
+    "english": "Cold"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "맑다",
+    "english": "Sunny"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "봄",
+    "english": "Spring"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "여름",
+    "english": "Summer"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "가을",
+    "english": "Autumn"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "겨울",
+    "english": "Winter"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "따뜻하다",
+    "english": "Warm"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "시원하다",
+    "english": "Cool"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "바람",
+    "english": "Wind"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "우산",
+    "english": "Umbrella"
+  },
+  {
+    "module": "Weather & Seasons",
+    "korean": "구름",
+    "english": "Cloud"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "이거",
+    "english": "This"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "저거",
+    "english": "That"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "얼마",
+    "english": "How much"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "원",
+    "english": "Won"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "비싸다",
+    "english": "Expensive"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "싸다",
+    "english": "Cheap"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "돈",
+    "english": "Money"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "계산",
+    "english": "Payment"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "현금",
+    "english": "Cash"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "카드",
+    "english": "Card"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "영수증",
+    "english": "Receipt"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "가게",
+    "english": "Store"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "옷",
+    "english": "Clothes"
+  },
+  {
+    "module": "Shopping & Money",
+    "korean": "신발",
+    "english": "Shoes"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "좋다",
+    "english": "Good"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "슬프다",
+    "english": "Sad"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "행복하다",
+    "english": "Happy"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "피곤하다",
+    "english": "Tired"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "배부르다",
+    "english": "Full"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "재밌다",
+    "english": "Fun"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "힘들다",
+    "english": "Difficult"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "기쁘다",
+    "english": "Glad"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "싫다",
+    "english": "Dislike"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "괜찮다",
+    "english": "Okay"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "아프다",
+    "english": "Sick"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "바쁘다",
+    "english": "Busy"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "심심하다",
+    "english": "Bored"
+  },
+  {
+    "module": "Feelings & States",
+    "korean": "졸리다",
+    "english": "Sleepy"
+  }
+]
