@@ -280,14 +280,18 @@ button:hover {
 .trace-guide {
   position: absolute;
   inset: 0;
-  display: grid;
-  place-items: center;
-  font-size: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-size: min(var(--trace-size, 96px), 24vw);
   font-weight: 800;
   color: rgba(23, 32, 42, 0.12);
   pointer-events: none;
   user-select: none;
-  line-height: 1;
+  line-height: 1.05;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 #traceCanvas {

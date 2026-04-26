@@ -179,6 +179,8 @@ function renderWord() {
   els.exampleKo.textContent = word.example?.korean || "";
   els.exampleEn.textContent = word.example?.english || "";
   els.traceGuide.textContent = word.korean;
+  const traceSize = word.korean.length <= 2 ? 112 : word.korean.length <= 4 ? 82 : 64;
+  els.traceGuide.style.setProperty("--trace-size", `${traceSize}px`);
   window.requestAnimationFrame(() => {
     resizeTraceCanvas();
     clearTraceCanvas();
