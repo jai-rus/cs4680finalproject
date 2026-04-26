@@ -5,3 +5,4 @@ __pycache__/
 ~$*
 *.log
 vocab_bank_base.json
+list_models.py

@@ -7,6 +7,7 @@ const state = {
   quizIndex: 0,
   score: 0,
   quizMode: "module",
+  isSubmittingQuizAnswer: false,
 };
 
 const els = {
@@ -49,7 +50,10 @@ const trace = {
 };
 
 function normalize(value) {
-  return value.toLowerCase().replace(/[^\w\s]/g, "").trim();
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^\w\s]/g, "")
+    .trim();
 }
 
 function youtubeEmbedUrl(url) {
@@ -66,18 +70,57 @@ async function getJson(url) {
   return response.json();
 }
 
+async function postJson(url, body) {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+
+  if (!response.ok) {
+    let message = `Request failed: ${url}`;
+    try {
+      const data = await response.json();
+      message = data.detail || data.error || message;
+    } catch {
+      // ignore json parse failure
+    }
+    throw new Error(message);
+  }
+
+  return response.json();
+}
+
 function setFeedback(element, message, kind = "") {
   element.textContent = message;
   element.className = `feedback ${kind}`.trim();
+}
+
+function setRichQuizFeedback(data) {
+  const lines = [];
+
+  if (data.short_feedback) lines.push(data.short_feedback);
+  if (data.why_wrong) lines.push(`Why: ${data.why_wrong}`);
+  if (data.memory_tip) lines.push(`Tip: ${data.memory_tip}`);
+  if (data.practice_reminder) lines.push(`Practice: ${data.practice_reminder}`);
+  if (data.error) lines.push(`Debug: ${data.error}`);
+
+  els.quizFeedback.textContent = lines.join(" ");
+  els.quizFeedback.className = `feedback ${data.is_correct ? "good" : "bad"}`.trim();
 }
 
 function resizeTraceCanvas() {
   const canvas = els.traceCanvas;
   const rect = canvas.getBoundingClientRect();
   const scale = window.devicePixelRatio || 1;
+
   canvas.width = Math.max(1, Math.floor(rect.width * scale));
   canvas.height = Math.max(1, Math.floor(rect.height * scale));
+
   trace.ctx = canvas.getContext("2d");
+  trace.ctx.setTransform(1, 0, 0, 1, 0, 0);
   trace.ctx.scale(scale, scale);
   trace.ctx.lineWidth = 8;
   trace.ctx.lineCap = "round";
@@ -123,12 +166,15 @@ function endTrace() {
 
 function renderModules() {
   els.moduleList.innerHTML = "";
+
   state.modules.forEach((module) => {
     const button = document.createElement("button");
     button.className = "module-button";
+
     if (state.currentModule && state.currentModule.module === module.module) {
       button.classList.add("active");
     }
+
     button.type = "button";
     button.innerHTML = `<strong>Module ${module.module}</strong><span>${module.module_name}</span>`;
     button.addEventListener("click", () => loadModule(module.module));
@@ -169,20 +215,26 @@ function renderWord() {
   els.exampleKo.textContent = word.example?.korean || "";
   els.exampleEn.textContent = word.example?.english || "";
   els.traceGuide.textContent = word.korean;
+
   window.requestAnimationFrame(() => {
     resizeTraceCanvas();
     clearTraceCanvas();
   });
 
-  const youtube = word.youtube || {};
-  const embedUrl = youtubeEmbedUrl(youtube.url);
+  const youtube = word.media || {};
+  const embedUrl = youtubeEmbedUrl(youtube.youtube_url);
+
   if (embedUrl) {
-    els.videoSlot.innerHTML = `<iframe src="${embedUrl}" title="${youtube.title || word.korean}" allowfullscreen></iframe>`;
-    els.youtubeLink.href = youtube.url;
+    els.videoSlot.innerHTML = `<iframe src="${embedUrl}" title="${youtube.youtube_title || word.korean}" allowfullscreen></iframe>`;
+    els.youtubeLink.href = youtube.youtube_url;
     els.youtubeLink.textContent = "Open YouTube";
-    els.videoMeta.textContent = `${youtube.title || "Verified video"}${youtube.channel ? ` - ${youtube.channel}` : ""}`;
+    els.videoMeta.textContent =
+      `${youtube.youtube_title || "Verified video"}${youtube.youtube_channel ? ` - ${youtube.youtube_channel}` : ""}`;
   } else {
-    const searchUrl = youtube.search_url || `https://www.youtube.com/results?search_query=${encodeURIComponent(`Korean pronunciation ${word.korean}`)}`;
+    const searchUrl =
+      youtube.youtube_search_url ||
+      `https://www.youtube.com/results?search_query=${encodeURIComponent(`Korean pronunciation ${word.korean}`)}`;
+
     els.videoSlot.textContent = "Video link not verified yet";
     els.youtubeLink.href = searchUrl;
     els.youtubeLink.textContent = "Search YouTube";
@@ -206,9 +258,13 @@ async function startQuiz(mode = "module") {
   state.quizMode = mode;
   state.quizIndex = 0;
   state.score = 0;
-  const url = mode === "final"
-    ? "/api/quiz?count=20"
-    : `/api/quiz?module=${state.currentModule.module}&count=14`;
+  state.isSubmittingQuizAnswer = false;
+
+  const url =
+    mode === "final"
+      ? "/api/quiz?count=20"
+      : `/api/quiz?module=${state.currentModule.module}&count=14`;
+
   const data = await getJson(url);
   state.quiz = data.questions;
   showQuiz();
@@ -217,9 +273,13 @@ async function startQuiz(mode = "module") {
 
 function renderQuizQuestion() {
   const question = state.quiz[state.quizIndex];
+
   els.quizFeedback.textContent = "";
   els.typedAnswer.value = "";
-  els.quizTitle.textContent = state.quizMode === "final" ? "Final Review Quiz" : `Module ${state.currentModule.module} Quiz`;
+  els.quizTitle.textContent =
+    state.quizMode === "final"
+      ? "Final Review Quiz"
+      : `Module ${state.currentModule.module} Quiz`;
   els.scoreBox.textContent = `Score: ${state.score} / ${state.quiz.length}`;
 
   if (!question) {
@@ -227,43 +287,95 @@ function renderQuizQuestion() {
     els.quizOptions.innerHTML = "";
     els.typedAnswer.classList.add("hidden");
     els.submitTypedBtn.classList.add("hidden");
-    setFeedback(els.quizFeedback, `Final score: ${state.score} / ${state.quiz.length}`, "good");
+    setFeedback(
+      els.quizFeedback,
+      `Final score: ${state.score} / ${state.quiz.length}`,
+      "good"
+    );
+
     els.startQuizBtn.classList.remove("hidden");
     els.startQuizBtn.textContent = "Back to Study";
     els.startQuizBtn.onclick = () => {
       els.startQuizBtn.textContent = "Start Module Quiz";
-      els.startQuizBtn.onclick = () => startQuiz("module");
+      els.startQuizBtn.onclick = null;
       showStudy();
     };
     return;
   }
 
-  els.typedAnswer.classList.remove("hidden");
-  els.submitTypedBtn.classList.remove("hidden");
   els.quizQuestion.textContent = `${state.quizIndex + 1}. ${question.prompt}`;
   els.quizOptions.innerHTML = "";
-  question.options.forEach((option) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "option-button";
-    button.textContent = option;
-    button.addEventListener("click", () => submitQuizAnswer(option));
-    els.quizOptions.appendChild(button);
-  });
+
+  const hasOptions = Array.isArray(question.options) && question.options.length > 0;
+
+  if (hasOptions) {
+    els.typedAnswer.classList.add("hidden");
+    els.submitTypedBtn.classList.add("hidden");
+
+    question.options.forEach((option) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "option-button";
+      button.textContent = option;
+      button.disabled = state.isSubmittingQuizAnswer;
+      button.addEventListener("click", () => submitQuizAnswer(option));
+      els.quizOptions.appendChild(button);
+    });
+  } else {
+    els.typedAnswer.classList.remove("hidden");
+    els.submitTypedBtn.classList.remove("hidden");
+  }
 }
 
-function submitQuizAnswer(answer) {
+function getVocabWordForQuestion(question) {
+  if (!question || !question.korean_word) return null;
+  return state.words.find((word) => word.korean === question.korean_word) || null;
+}
+
+async function submitQuizAnswer(answer) {
   const question = state.quiz[state.quizIndex];
-  if (!question) return;
-  const correct = normalize(answer) === normalize(question.answer);
-  if (correct) {
-    state.score += 1;
-    setFeedback(els.quizFeedback, "Correct.", "good");
-  } else {
-    setFeedback(els.quizFeedback, `Incorrect. Answer: ${question.answer}`, "bad");
+  if (!question || state.isSubmittingQuizAnswer) return;
+
+  state.isSubmittingQuizAnswer = true;
+
+  try {
+    if (question.type === "multiple_choice") {
+      const vocabWord = getVocabWordForQuestion(question);
+
+      const explanation = await postJson("/api/explain-answer", {
+        question,
+        user_answer: answer,
+        vocab_word: vocabWord,
+      });
+
+      if (explanation.is_correct) {
+        state.score += 1;
+      }
+
+      setRichQuizFeedback(explanation);
+    } else {
+      const correct = normalize(answer) === normalize(question.answer);
+
+      if (correct) {
+        state.score += 1;
+        setFeedback(els.quizFeedback, "Correct.", "good");
+      } else {
+        setFeedback(els.quizFeedback, `Incorrect. Answer: ${question.answer}`, "bad");
+      }
+    }
+
+    els.scoreBox.textContent = `Score: ${state.score} / ${state.quiz.length}`;
+    state.quizIndex += 1;
+    window.setTimeout(() => {
+      state.isSubmittingQuizAnswer = false;
+      renderQuizQuestion();
+    }, 2200);
+  } catch (error) {
+    console.error(error);
+    setFeedback(els.quizFeedback, `Could not check answer: ${error.message}`, "bad");
+    state.isSubmittingQuizAnswer = false;
+    renderQuizQuestion();
   }
-  state.quizIndex += 1;
-  window.setTimeout(renderQuizQuestion, 700);
 }
 
 els.prevBtn.addEventListener("click", () => {
@@ -283,15 +395,23 @@ window.addEventListener("mouseup", endTrace);
 els.traceCanvas.addEventListener("touchstart", startTrace, { passive: false });
 els.traceCanvas.addEventListener("touchmove", moveTrace, { passive: false });
 els.traceCanvas.addEventListener("touchend", endTrace);
+
 window.addEventListener("resize", () => {
   resizeTraceCanvas();
   clearTraceCanvas();
 });
+
 els.startQuizBtn.addEventListener("click", () => startQuiz("module"));
 els.finalQuizBtn.addEventListener("click", () => startQuiz("final"));
-els.submitTypedBtn.addEventListener("click", () => submitQuizAnswer(els.typedAnswer.value));
+
+els.submitTypedBtn.addEventListener("click", () => {
+  submitQuizAnswer(els.typedAnswer.value);
+});
+
 els.typedAnswer.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") submitQuizAnswer(els.typedAnswer.value);
+  if (event.key === "Enter") {
+    submitQuizAnswer(els.typedAnswer.value);
+  }
 });
 
 async function init() {
@@ -299,7 +419,12 @@ async function init() {
   const data = await getJson("/api/modules");
   state.modules = data.modules;
   renderModules();
-  await loadModule(state.modules[0].module);
+
+  if (state.modules.length > 0) {
+    await loadModule(state.modules[0].module);
+  } else {
+    els.moduleTitle.textContent = "No modules found.";
+  }
 }
 
 init().catch((error) => {
