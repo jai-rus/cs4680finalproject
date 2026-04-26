@@ -25,8 +25,12 @@ const els = {
   englishMeaning: document.querySelector("#englishMeaning"),
   exampleKo: document.querySelector("#exampleKo"),
   exampleEn: document.querySelector("#exampleEn"),
+  traceBoard: document.querySelector(".trace-board"),
+  traceSurface: document.querySelector("#traceSurface"),
   traceGuide: document.querySelector("#traceGuide"),
   traceCanvas: document.querySelector("#traceCanvas"),
+  traceScroll: document.querySelector("#traceScroll"),
+  undoTraceBtn: document.querySelector("#undoTraceBtn"),
   clearTraceBtn: document.querySelector("#clearTraceBtn"),
   youtubeLink: document.querySelector("#youtubeLink"),
   videoSlot: document.querySelector("#videoSlot"),
@@ -48,6 +52,8 @@ const els = {
 const trace = {
   drawing: false,
   ctx: null,
+  strokes: [],
+  currentStroke: null,
 };
 
 function youtubeEmbedUrl(url) {
@@ -93,12 +99,46 @@ function resizeTraceCanvas() {
   trace.ctx.lineCap = "round";
   trace.ctx.lineJoin = "round";
   trace.ctx.strokeStyle = "#006d77";
+  redrawTraceCanvas();
 }
 
-function clearTraceCanvas() {
+function clearTracePixels() {
   if (!trace.ctx) resizeTraceCanvas();
   const rect = els.traceCanvas.getBoundingClientRect();
   trace.ctx.clearRect(0, 0, rect.width, rect.height);
+}
+
+function drawTraceStroke(points) {
+  if (!trace.ctx || points.length < 2) return;
+  trace.ctx.beginPath();
+  trace.ctx.moveTo(points[0].x, points[0].y);
+  points.slice(1).forEach((point) => {
+    trace.ctx.lineTo(point.x, point.y);
+  });
+  trace.ctx.stroke();
+}
+
+function redrawTraceCanvas() {
+  clearTracePixels();
+  trace.strokes.forEach(drawTraceStroke);
+}
+
+function clearTraceCanvas() {
+  trace.strokes = [];
+  trace.currentStroke = null;
+  clearTracePixels();
+}
+
+function undoTraceStroke() {
+  trace.strokes.pop();
+  redrawTraceCanvas();
+}
+
+function syncTraceScrollControl() {
+  const maxScroll = Math.max(0, els.traceBoard.scrollWidth - els.traceBoard.clientWidth);
+  els.traceScroll.max = String(maxScroll);
+  els.traceScroll.value = String(Math.min(els.traceBoard.scrollLeft, maxScroll));
+  els.traceScroll.classList.toggle("visible", maxScroll > 0);
 }
 
 function tracePoint(event) {
@@ -115,6 +155,7 @@ function startTrace(event) {
   if (!trace.ctx) resizeTraceCanvas();
   trace.drawing = true;
   const point = tracePoint(event);
+  trace.currentStroke = [point];
   trace.ctx.beginPath();
   trace.ctx.moveTo(point.x, point.y);
 }
@@ -123,12 +164,17 @@ function moveTrace(event) {
   if (!trace.drawing) return;
   event.preventDefault();
   const point = tracePoint(event);
+  trace.currentStroke.push(point);
   trace.ctx.lineTo(point.x, point.y);
   trace.ctx.stroke();
 }
 
 function endTrace() {
+  if (trace.drawing && trace.currentStroke && trace.currentStroke.length > 1) {
+    trace.strokes.push(trace.currentStroke);
+  }
   trace.drawing = false;
+  trace.currentStroke = null;
 }
 
 function renderModules() {
@@ -179,11 +225,17 @@ function renderWord() {
   els.exampleKo.textContent = word.example?.korean || "";
   els.exampleEn.textContent = word.example?.english || "";
   els.traceGuide.textContent = word.korean;
-  const traceSize = word.korean.length <= 2 ? 112 : word.korean.length <= 4 ? 82 : 64;
+  const traceLength = word.korean.replace(/\s/g, "").length;
+  const traceSize = traceLength <= 2 ? 96 : traceLength <= 3 ? 86 : traceLength <= 4 ? 76 : traceLength <= 5 ? 66 : 58;
+  const traceWidth = Math.max(320, Math.ceil(traceLength * traceSize * 1.15));
   els.traceGuide.style.setProperty("--trace-size", `${traceSize}px`);
+  els.traceSurface.style.setProperty("--trace-width", `${traceWidth}px`);
+  els.traceBoard.scrollLeft = 0;
+  els.traceScroll.value = "0";
   window.requestAnimationFrame(() => {
     resizeTraceCanvas();
     clearTraceCanvas();
+    syncTraceScrollControl();
   });
 
   const youtube = word.youtube || {};
@@ -355,6 +407,11 @@ els.nextBtn.addEventListener("click", () => {
 });
 
 els.clearTraceBtn.addEventListener("click", clearTraceCanvas);
+els.undoTraceBtn.addEventListener("click", undoTraceStroke);
+els.traceScroll.addEventListener("input", () => {
+  els.traceBoard.scrollLeft = Number(els.traceScroll.value);
+});
+els.traceBoard.addEventListener("scroll", syncTraceScrollControl);
 els.traceCanvas.addEventListener("mousedown", startTrace);
 els.traceCanvas.addEventListener("mousemove", moveTrace);
 window.addEventListener("mouseup", endTrace);
@@ -363,7 +420,7 @@ els.traceCanvas.addEventListener("touchmove", moveTrace, { passive: false });
 els.traceCanvas.addEventListener("touchend", endTrace);
 window.addEventListener("resize", () => {
   resizeTraceCanvas();
-  clearTraceCanvas();
+  syncTraceScrollControl();
 });
 els.startQuizBtn.addEventListener("click", () => startQuiz("module"));
 els.finalQuizBtn.addEventListener("click", () => startQuiz("final"));

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CoreKorean</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/styles.css?v=20260426o">
   </head>
   <body>
     <div class="app-shell">
@@ -48,12 +48,18 @@
             <div class="writing-box">
               <div class="writing-head">
                 <label>Tracing practice</label>
-                <button id="clearTraceBtn" type="button">Clear</button>
+                <div class="trace-actions">
+                  <button id="undoTraceBtn" type="button">Undo</button>
+                  <button id="clearTraceBtn" type="button">Clear</button>
+                </div>
               </div>
               <div class="trace-board">
-                <div id="traceGuide" class="trace-guide"></div>
-                <canvas id="traceCanvas" aria-label="Tracing practice canvas"></canvas>
+                <div id="traceSurface" class="trace-surface">
+                  <div id="traceGuide" class="trace-guide"></div>
+                  <canvas id="traceCanvas" aria-label="Tracing practice canvas"></canvas>
+                </div>
               </div>
+              <input id="traceScroll" class="trace-scroll" type="range" min="0" max="0" value="0" aria-label="Move tracing area">
             </div>
           </article>
 
@@ -93,6 +99,6 @@
         </footer>
       </main>
     </div>
-    <script src="/static/app.js"></script>
+    <script src="/static/app.js?v=20260426o"></script>
   </body>
 </html>
