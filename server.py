@@ -23,12 +23,12 @@ import os
 import random
 import re
 import urllib.request
-import uuid
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote_plus
 
 from fastmcp import FastMCP
+from quiz_utils import build_quiz, check_quiz_answer, normalize_answer
 
 try:
     from dotenv import load_dotenv
@@ -82,7 +82,7 @@ def _module_pool(module: int, level: str = "beginner") -> list[dict]:
 
 def _normalize(s: str) -> str:
     """Lowercase and strip punctuation for loose answer comparison."""
-    return re.sub(r"[^\w\s]", "", s).lower().strip()
+    return normalize_answer(s)
 
 
 def _youtube_query(word: dict, search_type: str = "pronunciation") -> str:
@@ -272,66 +272,18 @@ def generate_quiz(
     Returns:
         quiz_id, question_count, and a list of question objects.
     """
-    if not vocab_list:
-        return {"error": "vocab_list is empty. Call get_vocab_session first."}
-    if len(vocab_list) < 4:
-        return {"error": "Need at least 4 words to generate a quiz with distractors."}
-
     if not question_types:
         question_types = QUESTION_TYPES
-    else:
-        invalid = [qt for qt in question_types if qt not in QUESTION_TYPES]
-        if invalid:
-            return {"error": f"Unknown question type(s): {invalid}. Valid: {QUESTION_TYPES}."}
 
-    quiz_id = str(uuid.uuid4())[:8]
-    words = random.sample(vocab_list, min(QUIZ_SIZE, len(vocab_list)))
-    questions = []
-
-    for i, word in enumerate(words):
-        q_type = question_types[i % len(question_types)]
-        q_id = f"{quiz_id}_q{i + 1}"
-        others = [w for w in vocab_list if w["korean"] != word["korean"]]
-
-        if q_type == "multiple_choice":
-            distractors = random.sample(others, min(3, len(others)))
-            options = [word["english"]] + [d["english"] for d in distractors]
-            random.shuffle(options)
-            questions.append({
-                "question_id": q_id,
-                "type": "multiple_choice",
-                "prompt": f"What does '{word['korean']}' ({word['romanization']}) mean?",
-                "options": options,
-                "answer": word["english"],
-                "korean_word": word["korean"],
-            })
-
-        elif q_type == "fill_blank":
-            questions.append({
-                "question_id": q_id,
-                "type": "fill_blank",
-                "prompt": f"Type the Korean word for: {word['english']}",
-                "hint": f"Romanization: {word['romanization']}",
-                "options": None,
-                "answer": word["korean"],
-                "korean_word": word["korean"],
-            })
-
-        else:  # translate
-            questions.append({
-                "question_id": q_id,
-                "type": "translate",
-                "prompt": f"Translate into English: {word['korean']} ({word['romanization']})",
-                "options": None,
-                "answer": word["english"],
-                "korean_word": word["korean"],
-            })
-
-    return {
-        "quiz_id": quiz_id,
-        "question_count": len(questions),
-        "questions": questions,
-    }
+    try:
+        return build_quiz(
+            vocab_list,
+            all_words=vocab_list,
+            count=QUIZ_SIZE,
+            question_types=question_types,
+        )
+    except ValueError as e:
+        return {"error": str(e)}
 
 
 # ── Tool 4: check_answer ───────────────────────────────────────────────────────
@@ -355,31 +307,7 @@ def check_answer(
     Returns:
         question_id, is_correct, user_answer, correct_answer, score_delta.
     """
-    if not question:
-        return {"error": "question is required."}
-    if not user_answer or not user_answer.strip():
-        return {"error": "user_answer cannot be empty."}
-
-    missing = {"question_id", "type", "answer", "korean_word"} - question.keys()
-    if missing:
-        return {"error": f"question is missing fields: {missing}"}
-
-    user_answer = user_answer.strip()
-    correct_answer: str = question["answer"]
-    is_correct = _normalize(user_answer) == _normalize(correct_answer)
-
-    result: dict[str, Any] = {
-        "question_id": question["question_id"],
-        "is_correct": is_correct,
-        "user_answer": user_answer,
-        "correct_answer": correct_answer,
-        "score_delta": 10 if is_correct else 0,
-    }
-
-    if not is_correct:
-        result["feedback"] = f"The correct answer is '{correct_answer}'."
-
-    return result
+    return check_quiz_answer(question, user_answer)
 
 
 # ── Tool 5: get_youtube_recommendation ─────────────────────────────────────────

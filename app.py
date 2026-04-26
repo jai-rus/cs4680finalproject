@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 import os
 import json
 import uuid
-import random
 import re
 from pathlib import Path
+from quiz_utils import build_quiz, check_quiz_answer
 
 load_dotenv()
 
@@ -38,6 +38,10 @@ class SearchRequest(BaseModel):
 class RagContextRequest(BaseModel):
     query: str = Field(min_length=1)
     k: int = 3
+
+class AnswerRequest(BaseModel):
+    question: dict
+    user_answer: str = Field(min_length=1)
 
 @app.get("/")
 def root():
@@ -278,6 +282,88 @@ def get_genai_client():
     return genai.Client(api_key=api_key)
 
 
+def find_vocab_for_question(question: dict):
+    ensure_vocab_loaded()
+    korean = question.get("korean") or question.get("korean_word")
+    answer = question.get("answer")
+
+    for item in vocab_store:
+        if korean and item.get("korean") == korean:
+            return item
+
+    for item in vocab_store:
+        if answer and item.get("english") == answer:
+            return item
+
+    return None
+
+
+def template_answer_review(word: dict | None, result: dict) -> str:
+    if not word:
+        return result.get("feedback", "")
+
+    example = word.get("example", {}) or {}
+    if result.get("is_correct"):
+        first = f"{word['korean']} means {word['english']}, so your answer was correct."
+    else:
+        first = f"{word['korean']} means {word['english']}, not {result.get('user_answer', 'that answer')}."
+
+    if example.get("korean") and example.get("english"):
+        return f"{first} Example: {example['korean']} = {example['english']}"
+    return first
+
+
+def first_two_sentences(text: str) -> str:
+    sentences = re.findall(r"[^.!?]+[.!?]?", text.strip())
+    trimmed = " ".join(sentence.strip() for sentence in sentences[:2]).strip()
+    return trimmed or text.strip()
+
+
+def generate_answer_review(word: dict | None, result: dict) -> tuple[str, str]:
+    fallback = template_answer_review(word, result)
+    if not word or not os.getenv("GOOGLE_API_KEY"):
+        return fallback, "template"
+
+    query = f"{word.get('korean', '')} {word.get('english', '')} {word.get('module_name', '')}"
+    course_chunks = retrieve_course_context(query, 2)
+    course_context = "\n\n".join(
+        f"[{chunk['source']} / {chunk['id']}]\n{chunk['text'][:700]}"
+        for chunk in course_chunks
+    )
+    example = word.get("example", {}) or {}
+
+    prompt = f"""
+Write exactly 2 short sentences for a beginner Korean learner.
+Use simple English.
+Do not add extra Korean words unless they are already provided.
+
+Quiz result:
+- Correct: {result.get("is_correct")}
+- User answer: {result.get("user_answer")}
+- Correct answer: {result.get("correct_answer")}
+
+Vocabulary:
+- Korean: {word.get("korean")}
+- Romanization: {word.get("romanization")}
+- English: {word.get("english")}
+- Example: {example.get("korean", "")} = {example.get("english", "")}
+
+Course context:
+{course_context}
+"""
+
+    try:
+        client = get_genai_client()
+        response = client.models.generate_content(
+            model="models/gemini-2.5-flash",
+            contents=prompt
+        )
+        review = first_two_sentences(response.text or "")
+        return review or fallback, "gemini_rag"
+    except Exception:
+        return fallback, "template"
+
+
 def retrieve_vocab(topic: str, k: int = 14):
 
     if not vocab_store:
@@ -405,32 +491,26 @@ def get_quiz(module: int | None = None, count: int = 14):
             if int(item.get("module", -1)) == module
         ]
 
-    if len(candidates) < 4:
-        raise HTTPException(status_code=400, detail="Need at least 4 words for a quiz.")
+    try:
+        quiz = build_quiz(candidates, all_words=vocab_store, count=count)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
 
-    selected = random.sample(candidates, min(count, len(candidates)))
-    questions = []
-    for index, item in enumerate(selected, start=1):
-        distractors = random.sample(
-            [word for word in vocab_store if word["korean"] != item["korean"]],
-            3
-        )
-        options = [item["english"]] + [word["english"] for word in distractors]
-        random.shuffle(options)
-        questions.append({
-            "id": f"q{index}",
-            "type": "multiple_choice",
-            "prompt": f"What does '{item['korean']}' ({item['romanization']}) mean?",
-            "korean": item["korean"],
-            "answer": item["english"],
-            "options": options,
-        })
+    quiz["module"] = module
+    return quiz
 
-    return {
-        "module": module,
-        "question_count": len(questions),
-        "questions": questions,
-    }
+
+@app.post("/api/check-answer")
+def check_answer_api(request: AnswerRequest):
+    result = check_quiz_answer(request.question, request.user_answer)
+    if result.get("error"):
+        return result
+
+    word = find_vocab_for_question(request.question)
+    review, source = generate_answer_review(word, result)
+    result["review"] = review
+    result["review_source"] = source
+    return result
 
 @app.post("/search")
 def search_vocab(request: SearchRequest):

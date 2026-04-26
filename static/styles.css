@@ -320,6 +320,12 @@ input {
   color: var(--bad);
 }
 
+.quiz-review {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .media-header h3 {
   margin: 0;
 }
@@ -383,6 +389,10 @@ input {
 
 .typed-answer {
   margin-top: 16px;
+}
+
+#nextQuizBtn {
+  margin-top: 14px;
 }
 
 .controls {

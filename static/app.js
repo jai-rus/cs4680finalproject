@@ -41,16 +41,14 @@ const els = {
   typedAnswer: document.querySelector("#typedAnswer"),
   submitTypedBtn: document.querySelector("#submitTypedBtn"),
   quizFeedback: document.querySelector("#quizFeedback"),
+  quizReview: document.querySelector("#quizReview"),
+  nextQuizBtn: document.querySelector("#nextQuizBtn"),
 };
 
 const trace = {
   drawing: false,
   ctx: null,
 };
-
-function normalize(value) {
-  return value.toLowerCase().replace(/[^\w\s]/g, "").trim();
-}
 
 function youtubeEmbedUrl(url) {
   if (!url) return "";
@@ -60,6 +58,18 @@ function youtubeEmbedUrl(url) {
 
 async function getJson(url) {
   const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Request failed: ${url}`);
+  }
+  return response.json();
+}
+
+async function postJson(url, body) {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
   if (!response.ok) {
     throw new Error(`Request failed: ${url}`);
   }
@@ -215,26 +225,72 @@ async function startQuiz(mode = "module") {
   renderQuizQuestion();
 }
 
+function addQuizAction(label, onClick, primary = false) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = primary ? "option-button primary" : "option-button";
+  button.textContent = label;
+  button.addEventListener("click", onClick);
+  els.quizOptions.appendChild(button);
+}
+
+function renderQuizComplete() {
+  const total = state.quiz.length;
+  const required = Math.ceil(total * 0.6);
+  const percent = Math.round((state.score / total) * 100);
+  const passed = state.score >= required;
+
+  els.quizQuestion.textContent = "Quiz complete.";
+  els.quizOptions.innerHTML = "";
+  els.typedAnswer.classList.add("hidden");
+  els.submitTypedBtn.classList.add("hidden");
+  els.nextQuizBtn.classList.add("hidden");
+
+  if (state.quizMode === "final") {
+    setFeedback(els.quizFeedback, `Final score: ${state.score} / ${total} (${percent}%).`, "good");
+    addQuizAction("Back to Study", showStudy, true);
+    return;
+  }
+
+  if (passed) {
+    setFeedback(
+      els.quizFeedback,
+      `Passed: ${state.score} / ${total} (${percent}%). You can move to the next module.`,
+      "good"
+    );
+    const currentModule = Number(state.currentModule.module);
+    const nextModule = state.modules.find((module) => Number(module.module) === currentModule + 1);
+    if (nextModule) {
+      addQuizAction("Next module", () => loadModule(nextModule.module), true);
+    } else {
+      addQuizAction("Final Review Quiz", () => startQuiz("final"), true);
+    }
+    addQuizAction("Back to Study", showStudy);
+    return;
+  }
+
+  setFeedback(
+    els.quizFeedback,
+    `Score: ${state.score} / ${total} (${percent}%). You need ${required} correct answers to pass.`,
+    "bad"
+  );
+  addQuizAction("Retry quiz", () => startQuiz("module"), true);
+  addQuizAction("Back to Study", showStudy);
+}
+
 function renderQuizQuestion() {
   const question = state.quiz[state.quizIndex];
   els.quizFeedback.textContent = "";
+  els.quizReview.textContent = "";
   els.typedAnswer.value = "";
+  els.typedAnswer.disabled = false;
+  els.submitTypedBtn.disabled = false;
+  els.nextQuizBtn.classList.add("hidden");
   els.quizTitle.textContent = state.quizMode === "final" ? "Final Review Quiz" : `Module ${state.currentModule.module} Quiz`;
   els.scoreBox.textContent = `Score: ${state.score} / ${state.quiz.length}`;
 
   if (!question) {
-    els.quizQuestion.textContent = "Quiz complete.";
-    els.quizOptions.innerHTML = "";
-    els.typedAnswer.classList.add("hidden");
-    els.submitTypedBtn.classList.add("hidden");
-    setFeedback(els.quizFeedback, `Final score: ${state.score} / ${state.quiz.length}`, "good");
-    els.startQuizBtn.classList.remove("hidden");
-    els.startQuizBtn.textContent = "Back to Study";
-    els.startQuizBtn.onclick = () => {
-      els.startQuizBtn.textContent = "Start Module Quiz";
-      els.startQuizBtn.onclick = () => startQuiz("module");
-      showStudy();
-    };
+    renderQuizComplete();
     return;
   }
 
@@ -252,19 +308,39 @@ function renderQuizQuestion() {
   });
 }
 
-function submitQuizAnswer(answer) {
+async function submitQuizAnswer(answer) {
   const question = state.quiz[state.quizIndex];
   if (!question) return;
-  const correct = normalize(answer) === normalize(question.answer);
-  if (correct) {
+  if (!answer.trim()) return;
+
+  const optionButtons = els.quizOptions.querySelectorAll("button");
+  optionButtons.forEach((button) => {
+    button.disabled = true;
+  });
+  els.typedAnswer.disabled = true;
+  els.submitTypedBtn.disabled = true;
+
+  const result = await postJson("/api/check-answer", {
+    question,
+    user_answer: answer,
+  });
+
+  if (result.is_correct) {
     state.score += 1;
-    setFeedback(els.quizFeedback, "Correct.", "good");
+    setFeedback(els.quizFeedback, result.feedback || "Correct.", "good");
   } else {
-    setFeedback(els.quizFeedback, `Incorrect. Answer: ${question.answer}`, "bad");
+    setFeedback(els.quizFeedback, result.feedback || `Incorrect. Answer: ${question.answer}`, "bad");
   }
-  state.quizIndex += 1;
-  window.setTimeout(renderQuizQuestion, 700);
+  els.quizReview.textContent = result.review || "";
+
+  els.nextQuizBtn.textContent = state.quizIndex + 1 >= state.quiz.length ? "Show score" : "Next question";
+  els.nextQuizBtn.classList.remove("hidden");
 }
+
+els.nextQuizBtn.addEventListener("click", () => {
+  state.quizIndex += 1;
+  renderQuizQuestion();
+});
 
 els.prevBtn.addEventListener("click", () => {
   state.index = Math.max(0, state.index - 1);
