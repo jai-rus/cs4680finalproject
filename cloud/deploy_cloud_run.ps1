@@ -13,10 +13,11 @@ $image = "$Region-docker.pkg.dev/$ProjectId/$Repository/$Service`:latest"
 
 gcloud config set project $ProjectId | Out-Null
 
-$repoExists = gcloud artifacts repositories describe $Repository `
+$repoExists = gcloud artifacts repositories list `
     --location $Region `
     --project $ProjectId `
-    --format "value(name)" 2>$null
+    --filter "name:$Repository" `
+    --format "value(name)"
 
 if (-not $repoExists) {
     gcloud artifacts repositories create $Repository `
