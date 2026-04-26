@@ -1,39 +1,42 @@
-param(
-    [Parameter(Mandatory = $true)]
-    [string]$ProjectId,
-
-    [string]$Region = "us-central1",
-    [string]$Service = "corekorean",
-    [string]$Repository = "corekorean"
-)
-
 $ErrorActionPreference = "Stop"
 
-$image = "$Region-docker.pkg.dev/$ProjectId/$Repository/$Service`:latest"
+$PROJECT_ID = "corekorean"
+$REGION = "us-central1"
+$SERVICE = "corekorean"
+$REPO = "corekorean"
+$IMAGE = "${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO}/${SERVICE}:latest"
 
-gcloud config set project $ProjectId | Out-Null
-
-$repoExists = gcloud artifacts repositories list `
-    --location $Region `
-    --project $ProjectId `
-    --filter "name:$Repository" `
-    --format "value(name)"
-
-if (-not $repoExists) {
-    gcloud artifacts repositories create $Repository `
-        --repository-format docker `
-        --location $Region `
-        --description "CoreKorean container images" `
-        --project $ProjectId
+# Create the Artifact Registry repo if it is not there yet.
+try {
+    gcloud artifacts repositories create $REPO `
+        --repository-format=docker `
+        --location=$REGION `
+        --project=$PROJECT_ID `
+        --quiet
+}
+catch {
+    Write-Host "Artifact Registry repository may already exist; continuing..."
 }
 
-gcloud builds submit `
-    --tag $image `
-    --project $ProjectId
+# Let Docker push to Artifact Registry.
+gcloud auth configure-docker "${REGION}-docker.pkg.dev" --quiet
 
-gcloud run deploy $Service `
-    --image $image `
-    --region $Region `
-    --platform managed `
+# Build and upload the container.
+docker build -t $IMAGE .
+docker push $IMAGE
+
+# Deploy the container to Cloud Run.
+gcloud run deploy $SERVICE `
+    --image=$IMAGE `
+    --platform=managed `
+    --region=$REGION `
     --allow-unauthenticated `
-    --project $ProjectId
+    --port=8080 `
+    --project=$PROJECT_ID
+
+# Print the public service URL.
+gcloud run services describe $SERVICE `
+    --platform=managed `
+    --region=$REGION `
+    --format="value(status.url)" `
+    --project=$PROJECT_ID

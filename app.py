@@ -22,6 +22,8 @@ if STATIC_DIR.exists():
 sessions = {}
 vocab_store = []
 module_store = {}
+
+# PDF chunks are kept in memory for this small class project.
 doc_chunks = []
 
 class LessonRequest(BaseModel):
@@ -118,6 +120,8 @@ def ingest_docs():
             if not path.exists():
                 continue
             text = extract_pdf_text(path)
+
+            # Split the PDF text so the lesson prompt stays short.
             for index, chunk_text in enumerate(chunk_text_by_words(text)):
                 loaded.append({
                     "id": f"{path.stem}-{index + 1}",
@@ -217,6 +221,7 @@ def retrieve_course_context(query: str, k: int = 3):
     if not terms:
         return doc_chunks[:k]
 
+    # Simple keyword search is enough for this small PDF.
     scored = []
     for chunk in doc_chunks:
         text = chunk["text"].lower()
@@ -229,9 +234,7 @@ def retrieve_course_context(query: str, k: int = 3):
 
 
 def get_vocab_path():
-    enriched_path = Path("vocab_bank_enriched.json")
-    if enriched_path.exists():
-        return enriched_path
+    # vocab_bank.json is the final file with the YouTube links included.
     return Path("vocab_bank.json")
 
 
