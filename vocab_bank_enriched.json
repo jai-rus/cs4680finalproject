@@ -1,0 +1,3375 @@
+{
+  "beginner": {
+    "food": [
+      {
+        "korean": "음식",
+        "romanization": "eumsik",
+        "english": "food",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "한국 음식을 좋아해요.",
+          "english": "I like Korean food."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 음식 eumsik food beginner",
+            "video_id": "5yThMfo3CPI",
+            "url": "https://www.youtube.com/watch?v=5yThMfo3CPI",
+            "title": "How to pronounce eumsik | 음식 (food in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/5yThMfo3CPI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%8C%EC%8B%9D+eumsik+food+beginner"
+          }
+        }
+      },
+      {
+        "korean": "물",
+        "romanization": "mul",
+        "english": "water",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "물 좀 주세요.",
+          "english": "Please give me some water."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 물 mul water beginner",
+            "video_id": "rjyxP6P2HBk",
+            "url": "https://www.youtube.com/watch?v=rjyxP6P2HBk",
+            "title": "Why Does Water [mool] Sound Like [bool] in Korean?",
+            "channel": "Hann",
+            "thumbnail": "https://i.ytimg.com/vi/rjyxP6P2HBk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%AC%BC+mul+water+beginner"
+          }
+        }
+      },
+      {
+        "korean": "김치",
+        "romanization": "gimchi",
+        "english": "kimchi",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "김치는 조금 매워요.",
+          "english": "Kimchi is a bit spicy."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 김치 gimchi kimchi beginner",
+            "video_id": "4C-xwJjrH0g",
+            "url": "https://www.youtube.com/watch?v=4C-xwJjrH0g",
+            "title": "How to pronounce gimchi | 김치 (kimchi in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/4C-xwJjrH0g/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B9%80%EC%B9%98+gimchi+kimchi+beginner"
+          }
+        }
+      },
+      {
+        "korean": "맛있다",
+        "romanization": "masitda",
+        "english": "delicious",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "이 비빔밥 정말 맛있어요!",
+          "english": "This bibimbap is really delicious!"
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 맛있다 masitda delicious beginner",
+            "video_id": "cnGyjwCb9_g",
+            "url": "https://www.youtube.com/watch?v=cnGyjwCb9_g",
+            "title": "Delicious (in Korean) - 맛있다 (masitda)",
+            "channel": "Posh Korean",
+            "thumbnail": "https://i.ytimg.com/vi/cnGyjwCb9_g/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%9B%EC%9E%88%EB%8B%A4+masitda+delicious+beginner"
+          }
+        }
+      },
+      {
+        "korean": "맵다",
+        "romanization": "maepda",
+        "english": "spicy",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "떡볶이가 너무 매워요.",
+          "english": "Tteokbokki is too spicy."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 맵다 maepda spicy beginner",
+            "video_id": "0Wk-P8WstXI",
+            "url": "https://www.youtube.com/watch?v=0Wk-P8WstXI",
+            "title": "How to Say \"HOT\" in Korean | Common Korean Words",
+            "channel": "90 Day Korean",
+            "thumbnail": "https://i.ytimg.com/vi/0Wk-P8WstXI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%B5%EB%8B%A4+maepda+spicy+beginner"
+          }
+        }
+      },
+      {
+        "korean": "짜다",
+        "romanization": "jjada",
+        "english": "salty",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "국이 조금 짜요.",
+          "english": "The soup is a bit salty."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 짜다 jjada salty beginner",
+            "video_id": "NFivuAeQe7Y",
+            "url": "https://www.youtube.com/watch?v=NFivuAeQe7Y",
+            "title": "(KOREAN VOCABULARY 3-Taste )맛   Let’s learn Korean language with Ms.Sony~📚✏️",
+            "channel": "Sony Yu",
+            "thumbnail": "https://i.ytimg.com/vi/NFivuAeQe7Y/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A7%9C%EB%8B%A4+jjada+salty+beginner"
+          }
+        }
+      },
+      {
+        "korean": "달다",
+        "romanization": "dalda",
+        "english": "sweet",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "이 케이크는 정말 달아요.",
+          "english": "This cake is really sweet."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 달다 dalda sweet beginner",
+            "video_id": "hp4TjlVRsCg",
+            "url": "https://www.youtube.com/watch?v=hp4TjlVRsCg",
+            "title": "'5 Flavors' in Korean?😋",
+            "channel": "Real Korean with Morning",
+            "thumbnail": "https://i.ytimg.com/vi/hp4TjlVRsCg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%8B%AC%EB%8B%A4+dalda+sweet+beginner"
+          }
+        }
+      },
+      {
+        "korean": "주문",
+        "romanization": "jumun",
+        "english": "order",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "주문하시겠어요?",
+          "english": "Would you like to order?"
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 주문 jumun order beginner",
+            "video_id": "7bJCBy-dkMo",
+            "url": "https://www.youtube.com/watch?v=7bJCBy-dkMo",
+            "title": "How to pronounce jumun | 주문 (order in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/7bJCBy-dkMo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A3%BC%EB%AC%B8+jumun+order+beginner"
+          }
+        }
+      },
+      {
+        "korean": "고기",
+        "romanization": "gogi",
+        "english": "meat",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "고기를 구워 먹어요.",
+          "english": "We grill and eat meat."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 고기 gogi meat beginner",
+            "video_id": "8LoVqrN3GJk",
+            "url": "https://www.youtube.com/watch?v=8LoVqrN3GJk",
+            "title": "How to pronounce gogi | 고기 (meat in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/8LoVqrN3GJk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B3%A0%EA%B8%B0+gogi+meat+beginner"
+          }
+        }
+      },
+      {
+        "korean": "빵",
+        "romanization": "ppang",
+        "english": "bread",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "아침으로 빵을 먹어요.",
+          "english": "I eat bread for breakfast."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 빵 ppang bread beginner",
+            "video_id": "hGhxkRj3nZo",
+            "url": "https://www.youtube.com/watch?v=hGhxkRj3nZo",
+            "title": "How to pronounce ppang | 빵 (bread in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/hGhxkRj3nZo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B9%B5+ppang+bread+beginner"
+          }
+        }
+      },
+      {
+        "korean": "배고프다",
+        "romanization": "baegopeuda",
+        "english": "hungry",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "지금 너무 배고파요.",
+          "english": "I'm so hungry now."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 배고프다 baegopeuda hungry beginner",
+            "video_id": "uSixmAEFpgM",
+            "url": "https://www.youtube.com/watch?v=uSixmAEFpgM",
+            "title": "How to pronounce baegopeuda | 배고프다 (hungry in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/uSixmAEFpgM/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%B0%EA%B3%A0%ED%94%84%EB%8B%A4+baegopeuda+hungry+beginner"
+          }
+        }
+      },
+      {
+        "korean": "채소",
+        "romanization": "chaeso",
+        "english": "vegetable",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "채소를 많이 드세요.",
+          "english": "Please eat a lot of vegetables."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 채소 chaeso vegetable beginner",
+            "video_id": "30oejnR3uTg",
+            "url": "https://www.youtube.com/watch?v=30oejnR3uTg",
+            "title": "6. 11 BASIC KOREAN WORD - Vegetable 야채 [Eng sub] l  한국어 기초 단어 l Kstyles",
+            "channel": "KSTYLES",
+            "thumbnail": "https://i.ytimg.com/vi/30oejnR3uTg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B1%84%EC%86%8C+chaeso+vegetable+beginner"
+          }
+        }
+      },
+      {
+        "korean": "과일",
+        "romanization": "gwail",
+        "english": "fruit",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "식후에 과일을 먹어요.",
+          "english": "We eat fruit after the meal."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 과일 gwail fruit beginner",
+            "video_id": "DBnT1TMxs5o",
+            "url": "https://www.youtube.com/watch?v=DBnT1TMxs5o",
+            "title": "Korean Vocabulary | Fruits 과일 (gwail) with pronunciation",
+            "channel": "Korecedil",
+            "thumbnail": "https://i.ytimg.com/vi/DBnT1TMxs5o/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B3%BC%EC%9D%BC+gwail+fruit+beginner"
+          }
+        }
+      },
+      {
+        "korean": "음료수",
+        "romanization": "eumnyosu",
+        "english": "beverage",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "시원한 음료수 주세요.",
+          "english": "Please give me a cold beverage."
+        },
+        "module": 3,
+        "module_name": "음식과 식당 (Food & Restaurant)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 음료수 eumnyosu beverage beginner",
+            "video_id": "K8OIAbUqFhc",
+            "url": "https://www.youtube.com/watch?v=K8OIAbUqFhc",
+            "title": "🏪 Convenience Store Vocabulary in Korean | Must-Know Korean Words ✨ #korean #vocabulary #topik",
+            "channel": "KoreanLearners",
+            "thumbnail": "https://i.ytimg.com/vi/K8OIAbUqFhc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%8C%EB%A3%8C%EC%88%98+eumnyosu+beverage+beginner"
+          }
+        }
+      }
+    ],
+    "travel": [
+      {
+        "korean": "학교",
+        "romanization": "hakgyo",
+        "english": "school",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "학교에 가서 공부해요.",
+          "english": "I go to school and study."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 학교 hakgyo school beginner",
+            "video_id": "KHVYWw7qMNg",
+            "url": "https://www.youtube.com/watch?v=KHVYWw7qMNg",
+            "title": "How to pronounce hakgyo | 학교 (school in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/KHVYWw7qMNg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%95%99%EA%B5%90+hakgyo+school+beginner"
+          }
+        }
+      },
+      {
+        "korean": "집",
+        "romanization": "jip",
+        "english": "home",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "집에서 쉬고 싶어요.",
+          "english": "I want to rest at home."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 집 jip home beginner",
+            "video_id": "k-oMDW-t_L4",
+            "url": "https://www.youtube.com/watch?v=k-oMDW-t_L4",
+            "title": "How to pronounce jip | 집 (house in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/k-oMDW-t_L4/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A7%91+jip+home+beginner"
+          }
+        }
+      },
+      {
+        "korean": "카페",
+        "romanization": "kape",
+        "english": "cafe",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "카페에서 커피를 마셔요.",
+          "english": "I drink coffee at a cafe."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 카페 kape cafe beginner",
+            "video_id": "6E-729ztCWo",
+            "url": "https://www.youtube.com/watch?v=6E-729ztCWo",
+            "title": "How to pronounce kape | 카페 (cafe in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/6E-729ztCWo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B9%B4%ED%8E%98+kape+cafe+beginner"
+          }
+        }
+      },
+      {
+        "korean": "어디",
+        "romanization": "eodi",
+        "english": "where",
+        "part_of_speech": "adverb",
+        "example": {
+          "korean": "화장실이 어디예요?",
+          "english": "Where is the restroom?"
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 어디 eodi where beginner",
+            "video_id": "DJdXIgg5xPo",
+            "url": "https://www.youtube.com/watch?v=DJdXIgg5xPo",
+            "title": "034. 어디 사세요?  | Korean speaking drills. |  Korean pronunciation. | Korean expression",
+            "channel": "Korean Annie",
+            "thumbnail": "https://i.ytimg.com/vi/DJdXIgg5xPo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%96%B4%EB%94%94+eodi+where+beginner"
+          }
+        }
+      },
+      {
+        "korean": "병원",
+        "romanization": "byeongwon",
+        "english": "hospital",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "아파서 병원에 가요.",
+          "english": "I'm going to the hospital because I'm sick."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 병원 byeongwon hospital beginner",
+            "video_id": "8FyoAZTujqQ",
+            "url": "https://www.youtube.com/watch?v=8FyoAZTujqQ",
+            "title": "How to pronounce byeongwon | 병원 (hospital in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/8FyoAZTujqQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B3%91%EC%9B%90+byeongwon+hospital+beginner"
+          }
+        }
+      },
+      {
+        "korean": "식당",
+        "romanization": "sikdang",
+        "english": "restaurant",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "근처에 맛있는 식당이 있어요.",
+          "english": "There is a good restaurant nearby."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 식당 sikdang restaurant beginner",
+            "video_id": "TenmAB8bVjE",
+            "url": "https://www.youtube.com/watch?v=TenmAB8bVjE",
+            "title": "How to pronounce sikdang | 식당 (restaurant in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/TenmAB8bVjE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%9D%EB%8B%B9+sikdang+restaurant+beginner"
+          }
+        }
+      },
+      {
+        "korean": "옆",
+        "romanization": "yeop",
+        "english": "beside",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "서점 옆에 은행이 있어요.",
+          "english": "There is a bank beside the bookstore."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 옆 yeop beside beginner",
+            "video_id": "m9IczEpZPjg",
+            "url": "https://www.youtube.com/watch?v=m9IczEpZPjg",
+            "title": "[Korean words & expressions of location]  #koreanclass #koreangrammar",
+            "channel": "Now Korean Class",
+            "thumbnail": "https://i.ytimg.com/vi/m9IczEpZPjg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%86+yeop+beside+beginner"
+          }
+        }
+      },
+      {
+        "korean": "뒤",
+        "romanization": "dwi",
+        "english": "behind",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "건물 뒤에 주차장이 있어요.",
+          "english": "There is a parking lot behind the building."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 뒤 dwi behind beginner",
+            "video_id": "m9IczEpZPjg",
+            "url": "https://www.youtube.com/watch?v=m9IczEpZPjg",
+            "title": "[Korean words & expressions of location]  #koreanclass #koreangrammar",
+            "channel": "Now Korean Class",
+            "thumbnail": "https://i.ytimg.com/vi/m9IczEpZPjg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%92%A4+dwi+behind+beginner"
+          }
+        }
+      },
+      {
+        "korean": "안",
+        "romanization": "an",
+        "english": "inside",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "가방 안에 지갑이 있어요.",
+          "english": "There is a wallet inside the bag."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 안 an inside beginner",
+            "video_id": "rdCPReA-GYw",
+            "url": "https://www.youtube.com/watch?v=rdCPReA-GYw",
+            "title": "Learn 8 Essential Korean Location Words! | 안, 밖, 옆, 위, 아래, 앞, 뒤, 사이에 | Korean for Beginners",
+            "channel": "Hello Hangeul",
+            "thumbnail": "https://i.ytimg.com/vi/rdCPReA-GYw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%95%88+an+inside+beginner"
+          }
+        }
+      },
+      {
+        "korean": "앞",
+        "romanization": "ap",
+        "english": "in front of",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "집 앞에서 만나요.",
+          "english": "Let's meet in front of the house."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 앞 ap in front of beginner",
+            "video_id": "-D2Zx34_zK0",
+            "url": "https://www.youtube.com/watch?v=-D2Zx34_zK0",
+            "title": "🇬🇧🇰🇷 front - 앞 : learn English : 영어를 배우자 : vocabulary builder",
+            "channel": "Lingolifto",
+            "thumbnail": "https://i.ytimg.com/vi/-D2Zx34_zK0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%95%9E+ap+in+front+of+beginner"
+          }
+        }
+      },
+      {
+        "korean": "위",
+        "romanization": "wi",
+        "english": "above",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "책상 위에 휴대폰이 있어요.",
+          "english": "There is a cell phone on the desk."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 위 wi above beginner",
+            "video_id": "V1fSps7Dz4M",
+            "url": "https://www.youtube.com/watch?v=V1fSps7Dz4M",
+            "title": "'5 Position words' in Korean?👉",
+            "channel": "Real Korean with Morning",
+            "thumbnail": "https://i.ytimg.com/vi/V1fSps7Dz4M/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9C%84+wi+above+beginner"
+          }
+        }
+      },
+      {
+        "korean": "밑",
+        "romanization": "mit",
+        "english": "under",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "의자 밑에 고양이가 있어요.",
+          "english": "There is a cat under the chair."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 밑 mit under beginner",
+            "video_id": "0OUPDFk2kP0",
+            "url": "https://www.youtube.com/watch?v=0OUPDFk2kP0",
+            "title": "How to pronounce mit | 밑 (bottom in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/0OUPDFk2kP0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%91+mit+under+beginner"
+          }
+        }
+      },
+      {
+        "korean": "멀다",
+        "romanization": "meolda",
+        "english": "far",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "여기서 학교가 멀어요?",
+          "english": "Is the school far from here?"
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 멀다 meolda far beginner",
+            "video_id": "mZFWKB2DdgA",
+            "url": "https://www.youtube.com/watch?v=mZFWKB2DdgA",
+            "title": "How to pronounce meolda | 멀다 (be far in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/mZFWKB2DdgA/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A9%80%EB%8B%A4+meolda+far+beginner"
+          }
+        }
+      },
+      {
+        "korean": "가깝다",
+        "romanization": "gakkapda",
+        "english": "near",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "지하철역이 아주 가깝습니다.",
+          "english": "The subway station is very near."
+        },
+        "module": 5,
+        "module_name": "위치와 장소 (Location & Places)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 가깝다 gakkapda near beginner",
+            "video_id": "kMCq7tiJAVU",
+            "url": "https://www.youtube.com/watch?v=kMCq7tiJAVU",
+            "title": "How to pronounce gakkapda | 가깝다 (close in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/kMCq7tiJAVU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B0%80%EA%B9%9D%EB%8B%A4+gakkapda+near+beginner"
+          }
+        }
+      },
+      {
+        "korean": "비",
+        "romanization": "bi",
+        "english": "rain",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "비가 와요.",
+          "english": "It is raining."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 비 bi rain beginner",
+            "video_id": "jLtZOjW-kcw",
+            "url": "https://www.youtube.com/watch?v=jLtZOjW-kcw",
+            "title": "How do you say ‘Rain’ in Korean? ☔",
+            "channel": "Easy Korean Chat",
+            "thumbnail": "https://i.ytimg.com/vi/jLtZOjW-kcw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B9%84+bi+rain+beginner"
+          }
+        }
+      },
+      {
+        "korean": "눈",
+        "romanization": "nun",
+        "english": "snow",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "눈이 내려요.",
+          "english": "It is snowing."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 눈 nun snow beginner",
+            "video_id": "G7LJQo2vLJU",
+            "url": "https://www.youtube.com/watch?v=G7LJQo2vLJU",
+            "title": "눈 has 2 meanings👀❄️ in Korean",
+            "channel": "Real Korean with Morning",
+            "thumbnail": "https://i.ytimg.com/vi/G7LJQo2vLJU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%88%88+nun+snow+beginner"
+          }
+        }
+      },
+      {
+        "korean": "덥다",
+        "romanization": "deopda",
+        "english": "hot",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "너무 더워요.",
+          "english": "It is so hot."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 덥다 deopda hot beginner",
+            "video_id": "yqHWzN5Esm8",
+            "url": "https://www.youtube.com/watch?v=yqHWzN5Esm8",
+            "title": "How to say \"hot\" in Korean | 덥다 [deopda]",
+            "channel": "Paulino",
+            "thumbnail": "https://i.ytimg.com/vi/yqHWzN5Esm8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%8D%A5%EB%8B%A4+deopda+hot+beginner"
+          }
+        }
+      },
+      {
+        "korean": "춥다",
+        "romanization": "chupda",
+        "english": "cold",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "날씨가 춥거요.",
+          "english": "The weather is cold."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 춥다 chupda cold beginner",
+            "video_id": "6c6tviXaf5U",
+            "url": "https://www.youtube.com/watch?v=6c6tviXaf5U",
+            "title": "How to pronounce chupda | 춥다 (cold in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/6c6tviXaf5U/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B6%A5%EB%8B%A4+chupda+cold+beginner"
+          }
+        }
+      },
+      {
+        "korean": "맑다",
+        "romanization": "makda",
+        "english": "sunny",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "날씨가 맑아요.",
+          "english": "It is sunny."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "맑다 Korean pronunciation",
+            "video_id": "OPOwOc0E8hE",
+            "url": "https://www.youtube.com/watch?v=OPOwOc0E8hE",
+            "title": "맑다(Clear) 발음 Korean Pronunciation",
+            "channel": "Korean Pronunciation Guide",
+            "thumbnail": "https://i.ytimg.com/vi/OPOwOc0E8hE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=%EB%A7%91%EB%8B%A4+Korean+pronunciation"
+          }
+        }
+      },
+      {
+        "korean": "봄",
+        "romanization": "bom",
+        "english": "spring",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "봄이 왔어요.",
+          "english": "Spring has come."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 봄 bom spring beginner",
+            "video_id": "OUfq8pY_leA",
+            "url": "https://www.youtube.com/watch?v=OUfq8pY_leA",
+            "title": "How to pronounce bom | 봄 (spring in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/OUfq8pY_leA/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B4%84+bom+spring+beginner"
+          }
+        }
+      },
+      {
+        "korean": "여름",
+        "romanization": "yeoreum",
+        "english": "summer",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "여름은 더워요.",
+          "english": "Summer is hot."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 여름 yeoreum summer beginner",
+            "video_id": "qoNGHnxExcE",
+            "url": "https://www.youtube.com/watch?v=qoNGHnxExcE",
+            "title": "How to say Summer in Korean / 여름 발음",
+            "channel": "Korean Heyo!",
+            "thumbnail": "https://i.ytimg.com/vi/qoNGHnxExcE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%97%AC%EB%A6%84+yeoreum+summer+beginner"
+          }
+        }
+      },
+      {
+        "korean": "가을",
+        "romanization": "gaeul",
+        "english": "autumn",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "가을이 예뻐요.",
+          "english": "Autumn is beautiful."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 가을 gaeul autumn beginner",
+            "video_id": "Kha6S04HGCw",
+            "url": "https://www.youtube.com/watch?v=Kha6S04HGCw",
+            "title": "How to pronounce gaeul | 가을 (autumn in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/Kha6S04HGCw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B0%80%EC%9D%84+gaeul+autumn+beginner"
+          }
+        }
+      },
+      {
+        "korean": "겨울",
+        "romanization": "gyeoul",
+        "english": "winter",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "겨울은 추워요.",
+          "english": "Winter is cold."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 겨울 gyeoul winter beginner",
+            "video_id": "-jymSVAV3vg",
+            "url": "https://www.youtube.com/watch?v=-jymSVAV3vg",
+            "title": "How to pronounce gyeoul | 겨울 (winter in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/-jymSVAV3vg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B2%A8%EC%9A%B8+gyeoul+winter+beginner"
+          }
+        }
+      },
+      {
+        "korean": "따뜻하다",
+        "romanization": "ttatteutada",
+        "english": "warm",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "따뜻해요.",
+          "english": "It is warm."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "따뜻하다 Korean pronunciation",
+            "video_id": "lfjl9Jkt7nQ",
+            "url": "https://www.youtube.com/watch?v=lfjl9Jkt7nQ",
+            "title": "따뜻하다 (Warm) 발음 Korean Pronunciation",
+            "channel": "Korean Pronunciation Guide",
+            "thumbnail": "https://i.ytimg.com/vi/lfjl9Jkt7nQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=%EB%94%B0%EB%9C%BB%ED%95%98%EB%8B%A4+Korean+pronunciation"
+          }
+        }
+      },
+      {
+        "korean": "시원하다",
+        "romanization": "siwonhada",
+        "english": "cool",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "시원하게 불어요.",
+          "english": "It blows coolly."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 시원하다 siwonhada cool beginner",
+            "video_id": "1Ztw2TlTXZs",
+            "url": "https://www.youtube.com/watch?v=1Ztw2TlTXZs",
+            "title": "How to say 'Well done' in Korean(with examples)",
+            "channel": "Tyler Ssaem Korean",
+            "thumbnail": "https://i.ytimg.com/vi/1Ztw2TlTXZs/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%9C%EC%9B%90%ED%95%98%EB%8B%A4+siwonhada+cool+beginner"
+          }
+        }
+      },
+      {
+        "korean": "바람",
+        "romanization": "baram",
+        "english": "wind",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "바람이 불어요.",
+          "english": "The wind blows."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 바람 baram wind beginner",
+            "video_id": "cSgbmU41mM8",
+            "url": "https://www.youtube.com/watch?v=cSgbmU41mM8",
+            "title": "How to pronounce baram | 바람 (wind in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/cSgbmU41mM8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%94%EB%9E%8C+baram+wind+beginner"
+          }
+        }
+      },
+      {
+        "korean": "우산",
+        "romanization": "usan",
+        "english": "umbrella",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "우산 가져가세요.",
+          "english": "Take an umbrella."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 우산 usan umbrella beginner",
+            "video_id": "ER5WhgxF27g",
+            "url": "https://www.youtube.com/watch?v=ER5WhgxF27g",
+            "title": "How to say Umbrella in Korean / 우산 발음",
+            "channel": "Korean Heyo!",
+            "thumbnail": "https://i.ytimg.com/vi/ER5WhgxF27g/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9A%B0%EC%82%B0+usan+umbrella+beginner"
+          }
+        }
+      },
+      {
+        "korean": "구름",
+        "romanization": "gureum",
+        "english": "cloud",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "구름이 많아요.",
+          "english": "There are many clouds."
+        },
+        "module": 8,
+        "module_name": "날씨와 계절 (Weather & Seasons)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 구름 gureum cloud beginner",
+            "video_id": "221bhGZwYsQ",
+            "url": "https://www.youtube.com/watch?v=221bhGZwYsQ",
+            "title": "How to pronounce gureum | 구름 (cloud in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/221bhGZwYsQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B5%AC%EB%A6%84+gureum+cloud+beginner"
+          }
+        }
+      },
+      {
+        "korean": "이거",
+        "romanization": "igeo",
+        "english": "this one",
+        "part_of_speech": "pronoun",
+        "example": {
+          "korean": "이거 얼마예요?",
+          "english": "How much is this?"
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 이거 igeo this one beginner",
+            "video_id": "4PcNPH9930s",
+            "url": "https://www.youtube.com/watch?v=4PcNPH9930s",
+            "title": "[Vocabulary Pair #56] 이거 & 저거 (IGEO & JEOGEO)",
+            "channel": "Learn Korean with Dae-Hangul",
+            "thumbnail": "https://i.ytimg.com/vi/4PcNPH9930s/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%B4%EA%B1%B0+igeo+this+one+beginner"
+          }
+        }
+      },
+      {
+        "korean": "저거",
+        "romanization": "jeogeo",
+        "english": "that one",
+        "part_of_speech": "pronoun",
+        "example": {
+          "korean": "저거 주세요.",
+          "english": "Give me that one."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 저거 jeogeo that one beginner",
+            "video_id": "Y_VOyl6vQCA",
+            "url": "https://www.youtube.com/watch?v=Y_VOyl6vQCA",
+            "title": "How to pronounce jeogeo | 저거 (That in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/Y_VOyl6vQCA/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A0%80%EA%B1%B0+jeogeo+that+one+beginner"
+          }
+        }
+      },
+      {
+        "korean": "얼마",
+        "romanization": "eolma",
+        "english": "how much",
+        "part_of_speech": "adverb",
+        "example": {
+          "korean": "가격이 얼마예요?",
+          "english": "How much is the price?"
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 얼마 eolma how much beginner",
+            "video_id": "XZL2SufTIoE",
+            "url": "https://www.youtube.com/watch?v=XZL2SufTIoE",
+            "title": "How to pronounce eolma | 얼마 (how much in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/XZL2SufTIoE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%96%BC%EB%A7%88+eolma+how+much+beginner"
+          }
+        }
+      },
+      {
+        "korean": "원",
+        "romanization": "won",
+        "english": "won (currency)",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "천 원이에요.",
+          "english": "It's one thousand won."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean won currency pronunciation 원",
+            "video_id": "Trhhm9kEdIk",
+            "url": "https://www.youtube.com/watch?v=Trhhm9kEdIk",
+            "title": "Learn Korean with Money – Korean Currency 101",
+            "channel": "Pronounce Korean",
+            "thumbnail": "https://i.ytimg.com/vi/Trhhm9kEdIk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+won+currency+pronunciation+%EC%9B%90"
+          }
+        }
+      },
+      {
+        "korean": "비싸다",
+        "romanization": "bissada",
+        "english": "expensive",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "너무 비싸요.",
+          "english": "It is too expensive."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 비싸다 bissada expensive beginner",
+            "video_id": "B24dCtoIk6E",
+            "url": "https://www.youtube.com/watch?v=B24dCtoIk6E",
+            "title": "How to say 'It doesn't make sense' in Korean(with examples)",
+            "channel": "Tyler Ssaem Korean",
+            "thumbnail": "https://i.ytimg.com/vi/B24dCtoIk6E/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B9%84%EC%8B%B8%EB%8B%A4+bissada+expensive+beginner"
+          }
+        }
+      },
+      {
+        "korean": "싸다",
+        "romanization": "ssada",
+        "english": "cheap",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "정말 싸요.",
+          "english": "It is really cheap."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 싸다 ssada cheap beginner",
+            "video_id": "MxXxtbZiXOw",
+            "url": "https://www.youtube.com/watch?v=MxXxtbZiXOw",
+            "title": "[Learn korean] 사다 Sada - to buy and to purchase in Korean.",
+            "channel": "Brown Korea",
+            "thumbnail": "https://i.ytimg.com/vi/MxXxtbZiXOw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%B8%EB%8B%A4+ssada+cheap+beginner"
+          }
+        }
+      },
+      {
+        "korean": "돈",
+        "romanization": "don",
+        "english": "money",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "돈이 없어요.",
+          "english": "I don't have money."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 돈 don money beginner",
+            "video_id": "2nW_D1FhWXY",
+            "url": "https://www.youtube.com/watch?v=2nW_D1FhWXY",
+            "title": "Easy Way to Learn Korean in 2weeks 176 돈 [don] money",
+            "channel": "korean study",
+            "thumbnail": "https://i.ytimg.com/vi/2nW_D1FhWXY/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%8F%88+don+money+beginner"
+          }
+        }
+      },
+      {
+        "korean": "계산",
+        "romanization": "gyesan",
+        "english": "payment",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "계산해 주세요.",
+          "english": "Please pay/check."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 계산 gyesan payment beginner",
+            "video_id": "CcEwtOTmg7I",
+            "url": "https://www.youtube.com/watch?v=CcEwtOTmg7I",
+            "title": "How to pronounce gyesan | 계산 (calculate in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/CcEwtOTmg7I/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B3%84%EC%82%B0+gyesan+payment+beginner"
+          }
+        }
+      },
+      {
+        "korean": "현금",
+        "romanization": "hyeongeum",
+        "english": "cash",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "현금 있어요?",
+          "english": "Do you have cash?"
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 현금 hyeongeum cash beginner",
+            "video_id": "F1QFjNndHrs",
+            "url": "https://www.youtube.com/watch?v=F1QFjNndHrs",
+            "title": "How to pronounce hyeongeum | 현금 (cash in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/F1QFjNndHrs/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%98%84%EA%B8%88+hyeongeum+cash+beginner"
+          }
+        }
+      },
+      {
+        "korean": "카드",
+        "romanization": "kadeu",
+        "english": "card",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "카드 돼요?",
+          "english": "Can I use a card?"
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 카드 kadeu card beginner",
+            "video_id": "97QwaNk2Lfc",
+            "url": "https://www.youtube.com/watch?v=97QwaNk2Lfc",
+            "title": "How to pronounce kadeu | 카드 (card in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/97QwaNk2Lfc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B9%B4%EB%93%9C+kadeu+card+beginner"
+          }
+        }
+      },
+      {
+        "korean": "영수증",
+        "romanization": "yeongsujeung",
+        "english": "receipt",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "영수증 주세요.",
+          "english": "Give me a receipt."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 영수증 yeongsujeung receipt beginner",
+            "video_id": "FVKj7_1Cons",
+            "url": "https://www.youtube.com/watch?v=FVKj7_1Cons",
+            "title": "How to say Receipt in Korean / 영수증 발음",
+            "channel": "Korean Heyo!",
+            "thumbnail": "https://i.ytimg.com/vi/FVKj7_1Cons/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%81%EC%88%98%EC%A6%9D+yeongsujeung+receipt+beginner"
+          }
+        }
+      },
+      {
+        "korean": "가게",
+        "romanization": "gage",
+        "english": "store",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "이 가게 좋아요.",
+          "english": "I like this store."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 가게 gage store beginner",
+            "video_id": "e6OmI-lq-u0",
+            "url": "https://www.youtube.com/watch?v=e6OmI-lq-u0",
+            "title": "How to pronounce gage | 가게 (store in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/e6OmI-lq-u0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B0%80%EA%B2%8C+gage+store+beginner"
+          }
+        }
+      },
+      {
+        "korean": "옷",
+        "romanization": "ot",
+        "english": "clothes",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "옷을 사요.",
+          "english": "I buy clothes."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 옷 ot clothes beginner",
+            "video_id": "fTseCs6-CAs",
+            "url": "https://www.youtube.com/watch?v=fTseCs6-CAs",
+            "title": "SUB/PDF) Korean Podcast for Beginners 13 : 옷 Clothes",
+            "channel": "최수수 ChoiSusu",
+            "thumbnail": "https://i.ytimg.com/vi/fTseCs6-CAs/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%B7+ot+clothes+beginner"
+          }
+        }
+      },
+      {
+        "korean": "신발",
+        "romanization": "sinbal",
+        "english": "shoes",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "신발 신으세요.",
+          "english": "Put on your shoes."
+        },
+        "module": 9,
+        "module_name": "쇼핑과 돈 (Shopping & Money)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 신발 sinbal shoes beginner",
+            "video_id": "q8z5rxkV5Sg",
+            "url": "https://www.youtube.com/watch?v=q8z5rxkV5Sg",
+            "title": "Learn Korean Word “shoes” 신발 [sinbal]",
+            "channel": "Paulino",
+            "thumbnail": "https://i.ytimg.com/vi/q8z5rxkV5Sg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%A0%EB%B0%9C+sinbal+shoes+beginner"
+          }
+        }
+      }
+    ],
+    "daily_life": [
+      {
+        "korean": "안녕하세요",
+        "romanization": "annyeonghaseyo",
+        "english": "hello",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "안녕하세요, 만나서 반가워요.",
+          "english": "Hello, nice to meet you."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 안녕하세요 annyeonghaseyo hello beginner",
+            "video_id": "WwjDKarMXa4",
+            "url": "https://www.youtube.com/watch?v=WwjDKarMXa4",
+            "title": "&quot;Hello&quot; in Korean by Generation 👴🏻👨🏻🧑🏻👦🏻👶🏻",
+            "channel": "Talk To Me In Korean",
+            "thumbnail": "https://i.ytimg.com/vi/WwjDKarMXa4/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94+annyeonghaseyo+hello+beginner"
+          }
+        }
+      },
+      {
+        "korean": "감사합니다",
+        "romanization": "gamsahamnida",
+        "english": "thank you",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "도와주셔서 감사합니다.",
+          "english": "Thank you for your help."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 감사합니다 gamsahamnida thank you beginner",
+            "video_id": "0HYTw7yaTQ0",
+            "url": "https://www.youtube.com/watch?v=0HYTw7yaTQ0",
+            "title": "How to say &#39;Thank you&#39; in Korean?🙏",
+            "channel": "Real Korean with Morning",
+            "thumbnail": "https://i.ytimg.com/vi/0HYTw7yaTQ0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4+gamsahamnida+thank+you+beginner"
+          }
+        }
+      },
+      {
+        "korean": "죄송합니다",
+        "romanization": "joesonghamnida",
+        "english": "I'm sorry",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "늦어서 죄송합니다.",
+          "english": "I'm sorry I'm late."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 죄송합니다 joesonghamnida I'm sorry beginner",
+            "video_id": "7Tklhuyh1Jk",
+            "url": "https://www.youtube.com/watch?v=7Tklhuyh1Jk",
+            "title": "3 Ways to say I’m sorry in Korean🇰🇷#learnkorean #koreanlanguage",
+            "channel": "Pronounce Korean",
+            "thumbnail": "https://i.ytimg.com/vi/7Tklhuyh1Jk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A3%84%EC%86%A1%ED%95%A9%EB%8B%88%EB%8B%A4+joesonghamnida+I%27m+sorry+beginner"
+          }
+        }
+      },
+      {
+        "korean": "이름",
+        "romanization": "ireum",
+        "english": "name",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "제 이름은 혜원입니다.",
+          "english": "My name is Hye-won."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 이름 ireum name beginner",
+            "video_id": "vM32u-eBaqs",
+            "url": "https://www.youtube.com/watch?v=vM32u-eBaqs",
+            "title": "How to pronounce ireum | 이름 (name in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/vM32u-eBaqs/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%B4%EB%A6%84+ireum+name+beginner"
+          }
+        }
+      },
+      {
+        "korean": "학생",
+        "romanization": "haksaeng",
+        "english": "student",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "저는 대학교 학생이에요.",
+          "english": "I am a university student."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 학생 haksaeng student beginner",
+            "video_id": "R_jYErzKaVI",
+            "url": "https://www.youtube.com/watch?v=R_jYErzKaVI",
+            "title": "How to Read and Write &quot;Student&quot; (학생) in Korean | Koreanescent",
+            "channel": "Koreanescent",
+            "thumbnail": "https://i.ytimg.com/vi/R_jYErzKaVI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%95%99%EC%83%9D+haksaeng+student+beginner"
+          }
+        }
+      },
+      {
+        "korean": "선생님",
+        "romanization": "seonsaengnim",
+        "english": "teacher",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "선생님, 질문이 있어요.",
+          "english": "Teacher, I have a question."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 선생님 seonsaengnim teacher beginner",
+            "video_id": "exj5o_DJEX0",
+            "url": "https://www.youtube.com/watch?v=exj5o_DJEX0",
+            "title": "How to pronounce seonsaengnim | 선생님 (teacher in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/exj5o_DJEX0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%84%A0%EC%83%9D%EB%8B%98+seonsaengnim+teacher+beginner"
+          }
+        }
+      },
+      {
+        "korean": "네",
+        "romanization": "ne",
+        "english": "yes",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "네, 알겠습니다.",
+          "english": "Yes, I understand."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 네 ne yes beginner",
+            "video_id": "zhf9NWKHjqE",
+            "url": "https://www.youtube.com/watch?v=zhf9NWKHjqE",
+            "title": "Korean Pronunciation Guide - 네 (NE or DE?) &amp; 뭐 (MWO or BWO?) [TalkToMeInKorean]",
+            "channel": "Talk To Me In Korean",
+            "thumbnail": "https://i.ytimg.com/vi/zhf9NWKHjqE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%84%A4+ne+yes+beginner"
+          }
+        }
+      },
+      {
+        "korean": "아니요",
+        "romanization": "aniyo",
+        "english": "no",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "아니요, 괜찮습니다.",
+          "english": "No, it's okay."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 아니요 aniyo no beginner",
+            "video_id": "Nf5jAber13s",
+            "url": "https://www.youtube.com/watch?v=Nf5jAber13s",
+            "title": "How to pronounce aniyo | 아니요 (no in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/Nf5jAber13s/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%95%84%EB%8B%88%EC%9A%94+aniyo+no+beginner"
+          }
+        }
+      },
+      {
+        "korean": "반가워요",
+        "romanization": "bangawoyo",
+        "english": "nice to meet you",
+        "part_of_speech": "expression",
+        "example": {
+          "korean": "만나서 정말 반가워요.",
+          "english": "It's really nice to meet you."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 반가워요 bangawoyo nice to meet you beginner",
+            "video_id": "QGYd6C-0fVo",
+            "url": "https://www.youtube.com/watch?v=QGYd6C-0fVo",
+            "title": "What is the difference between 만나서 반갑습니다 (mannaseo bangapseumnida) &amp; 반갑습니다 (bangapseumnida)?",
+            "channel": "90 Day Korean",
+            "thumbnail": "https://i.ytimg.com/vi/QGYd6C-0fVo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94+bangawoyo+nice+to+meet+you+beginner"
+          }
+        }
+      },
+      {
+        "korean": "잘 가요",
+        "romanization": "jal gayo",
+        "english": "goodbye",
+        "part_of_speech": "expression",
+        "example": {
+          "korean": "내일 봐요, 잘 가요.",
+          "english": "See you tomorrow, goodbye."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 잘 가요 jal gayo goodbye beginner",
+            "video_id": "QK_fjP6XcDg",
+            "url": "https://www.youtube.com/watch?v=QK_fjP6XcDg",
+            "title": "How to pronounce jalgayo | 잘가요 (Goodbye in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/QK_fjP6XcDg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9E%98+%EA%B0%80%EC%9A%94+jal+gayo+goodbye+beginner"
+          }
+        }
+      },
+      {
+        "korean": "저기요",
+        "romanization": "jeogiyo",
+        "english": "excuse me",
+        "part_of_speech": "interjection",
+        "example": {
+          "korean": "저기요, 주문할게요.",
+          "english": "Excuse me, I'd like to order."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 저기요 jeogiyo excuse me beginner",
+            "video_id": "lSuaTAIrmoc",
+            "url": "https://www.youtube.com/watch?v=lSuaTAIrmoc",
+            "title": "How to say Excuse me in Korean / 저기요 발음",
+            "channel": "Korean Heyo!",
+            "thumbnail": "https://i.ytimg.com/vi/lSuaTAIrmoc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A0%80%EA%B8%B0%EC%9A%94+jeogiyo+excuse+me+beginner"
+          }
+        }
+      },
+      {
+        "korean": "만나다",
+        "romanization": "mannada",
+        "english": "to meet",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "친구를 만나러 가요.",
+          "english": "I'm going to meet a friend."
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 만나다 mannada to meet beginner",
+            "video_id": "K-nZwgQHKgU",
+            "url": "https://www.youtube.com/watch?v=K-nZwgQHKgU",
+            "title": "뵙다(Meet-slightly more formal than 만나다) 발음 Korean Pronunciation",
+            "channel": "Korean Pronunciation Guide",
+            "thumbnail": "https://i.ytimg.com/vi/K-nZwgQHKgU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%8C%EB%82%98%EB%8B%A4+mannada+to+meet+beginner"
+          }
+        }
+      },
+      {
+        "korean": "국적",
+        "romanization": "gukjeok",
+        "english": "nationality",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "국적이 어디예요?",
+          "english": "What is your nationality?"
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 국적 gukjeok nationality beginner",
+            "video_id": "evf6oESQ9JY",
+            "url": "https://www.youtube.com/watch?v=evf6oESQ9JY",
+            "title": "Names of Countries in Korean - Nations, languages, and nationalities",
+            "channel": "90 Day Korean",
+            "thumbnail": "https://i.ytimg.com/vi/evf6oESQ9JY/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B5%AD%EC%A0%81+gukjeok+nationality+beginner"
+          }
+        }
+      },
+      {
+        "korean": "직업",
+        "romanization": "jigeop",
+        "english": "job",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "직업이 무엇입니까?",
+          "english": "What is your job?"
+        },
+        "module": 1,
+        "module_name": "인사 및 기본 (Greetings & Basics)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 직업 jigeop job beginner",
+            "video_id": "RuRteS5OZmI",
+            "url": "https://www.youtube.com/watch?v=RuRteS5OZmI",
+            "title": "How to pronounce jigeop | 직업 (job in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/RuRteS5OZmI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A7%81%EC%97%85+jigeop+job+beginner"
+          }
+        }
+      },
+      {
+        "korean": "일/하나",
+        "romanization": "il/hana",
+        "english": "1 (one)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "사과 하나 주세요.",
+          "english": "Please give me one apple."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 일/하나 il/hana 1 (one) beginner",
+            "video_id": "RbqPAd3g76Q",
+            "url": "https://www.youtube.com/watch?v=RbqPAd3g76Q",
+            "title": "Native Korean Numbers #learnkorean #number",
+            "channel": "korean_summer",
+            "thumbnail": "https://i.ytimg.com/vi/RbqPAd3g76Q/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%BC%2F%ED%95%98%EB%82%98+il%2Fhana+1+%28one%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "이/둘",
+        "romanization": "i/dul",
+        "english": "2 (two)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "커피 두 잔 주세요.",
+          "english": "Please give me two cups of coffee."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 이/둘 i/dul 2 (two) beginner",
+            "video_id": "RbqPAd3g76Q",
+            "url": "https://www.youtube.com/watch?v=RbqPAd3g76Q",
+            "title": "Native Korean Numbers #learnkorean #number",
+            "channel": "korean_summer",
+            "thumbnail": "https://i.ytimg.com/vi/RbqPAd3g76Q/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%B4%2F%EB%91%98+i%2Fdul+2+%28two%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "삼/셋",
+        "romanization": "sam/set",
+        "english": "3 (three)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "사탕 세 개 있어요.",
+          "english": "There are three candies."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 삼/셋 sam/set 3 (three) beginner",
+            "video_id": "RbqPAd3g76Q",
+            "url": "https://www.youtube.com/watch?v=RbqPAd3g76Q",
+            "title": "Native Korean Numbers #learnkorean #number",
+            "channel": "korean_summer",
+            "thumbnail": "https://i.ytimg.com/vi/RbqPAd3g76Q/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%82%BC%2F%EC%85%8B+sam%2Fset+3+%28three%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "사/넷",
+        "romanization": "sa/net",
+        "english": "4 (four)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "콜라 네 병 주세요.",
+          "english": "Please give me four bottles of coke."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 사/넷 sa/net 4 (four) beginner",
+            "video_id": "m94Wcj_BY4g",
+            "url": "https://www.youtube.com/watch?v=m94Wcj_BY4g",
+            "title": "Learn Korean (free language course video)",
+            "channel": "17-Minute-Languages Video",
+            "thumbnail": "https://i.ytimg.com/vi/m94Wcj_BY4g/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%82%AC%2F%EB%84%B7+sa%2Fnet+4+%28four%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "오/다섯",
+        "romanization": "o/daseot",
+        "english": "5 (five)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "손가락이 다섯 개예요.",
+          "english": "There are five fingers."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 오/다섯 o/daseot 5 (five) beginner",
+            "video_id": "882n0nNZkg8",
+            "url": "https://www.youtube.com/watch?v=882n0nNZkg8",
+            "title": "🔢 Day 16 — Korea Numbers (한국 숫자)Learn 20 Korean Number Words 🔟 | Easy Korean Flash",
+            "channel": "Easy Korean Flash",
+            "thumbnail": "https://i.ytimg.com/vi/882n0nNZkg8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%A4%2F%EB%8B%A4%EC%84%AF+o%2Fdaseot+5+%28five%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "육/여섯",
+        "romanization": "yuk/yeoseot",
+        "english": "6 (six)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "여섯 시에 만나요.",
+          "english": "Let's meet at six o'clock."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 육/여섯 yuk/yeoseot 6 (six) beginner",
+            "video_id": "882n0nNZkg8",
+            "url": "https://www.youtube.com/watch?v=882n0nNZkg8",
+            "title": "🔢 Day 16 — Korea Numbers (한국 숫자)Learn 20 Korean Number Words 🔟 | Easy Korean Flash",
+            "channel": "Easy Korean Flash",
+            "thumbnail": "https://i.ytimg.com/vi/882n0nNZkg8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9C%A1%2F%EC%97%AC%EC%84%AF+yuk%2Fyeoseot+6+%28six%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "칠/일곱",
+        "romanization": "chil/ilgop",
+        "english": "7 (seven)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "무지개는 일곱 색이에요.",
+          "english": "Rainbow has seven colors."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 칠/일곱 chil/ilgop 7 (seven) beginner",
+            "video_id": "882n0nNZkg8",
+            "url": "https://www.youtube.com/watch?v=882n0nNZkg8",
+            "title": "🔢 Day 16 — Korea Numbers (한국 숫자)Learn 20 Korean Number Words 🔟 | Easy Korean Flash",
+            "channel": "Easy Korean Flash",
+            "thumbnail": "https://i.ytimg.com/vi/882n0nNZkg8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B9%A0%2F%EC%9D%BC%EA%B3%B1+chil%2Filgop+7+%28seven%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "팔/여덟",
+        "romanization": "pal/yeodeol",
+        "english": "8 (eight)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "여덟 명 있습니다.",
+          "english": "There are eight people."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 팔/여덟 pal/yeodeol 8 (eight) beginner",
+            "video_id": "m94Wcj_BY4g",
+            "url": "https://www.youtube.com/watch?v=m94Wcj_BY4g",
+            "title": "Learn Korean (free language course video)",
+            "channel": "17-Minute-Languages Video",
+            "thumbnail": "https://i.ytimg.com/vi/m94Wcj_BY4g/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%8C%94%2F%EC%97%AC%EB%8D%9F+pal%2Fyeodeol+8+%28eight%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "구/아홉",
+        "romanization": "gu/ahop",
+        "english": "9 (nine)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "아홉 살이에요.",
+          "english": "I am nine years old."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 구/아홉 gu/ahop 9 (nine) beginner",
+            "video_id": "882n0nNZkg8",
+            "url": "https://www.youtube.com/watch?v=882n0nNZkg8",
+            "title": "🔢 Day 16 — Korea Numbers (한국 숫자)Learn 20 Korean Number Words 🔟 | Easy Korean Flash",
+            "channel": "Easy Korean Flash",
+            "thumbnail": "https://i.ytimg.com/vi/882n0nNZkg8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B5%AC%2F%EC%95%84%ED%99%89+gu%2Fahop+9+%28nine%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "십/열",
+        "romanization": "sip/yeol",
+        "english": "10 (ten)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "열 번 읽으세요.",
+          "english": "Please read it ten times."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 십/열 sip/yeol 10 (ten) beginner",
+            "video_id": "882n0nNZkg8",
+            "url": "https://www.youtube.com/watch?v=882n0nNZkg8",
+            "title": "🔢 Day 16 — Korea Numbers (한국 숫자)Learn 20 Korean Number Words 🔟 | Easy Korean Flash",
+            "channel": "Easy Korean Flash",
+            "thumbnail": "https://i.ytimg.com/vi/882n0nNZkg8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%AD%2F%EC%97%B4+sip%2Fyeol+10+%28ten%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "백",
+        "romanization": "baek",
+        "english": "100 (one hundred)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "이 책은 백 페이지예요.",
+          "english": "This book is one hundred pages."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 백 baek 100 (one hundred) beginner",
+            "video_id": "21pAyAEtBcw",
+            "url": "https://www.youtube.com/watch?v=21pAyAEtBcw",
+            "title": "한국어로 숫자를 배우기 큰 숫자 (한자어)#한국어 숫자#큰 숫자#한국어 배우기#한국어 수업#coreano#topik",
+            "channel": "Easy Korean",
+            "thumbnail": "https://i.ytimg.com/vi/21pAyAEtBcw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%B1+baek+100+%28one+hundred%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "천",
+        "romanization": "cheon",
+        "english": "1,000 (one thousand)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "학생이 천 명 있어요.",
+          "english": "There are a thousand students."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 천 cheon 1,000 (one thousand) beginner",
+            "video_id": "21pAyAEtBcw",
+            "url": "https://www.youtube.com/watch?v=21pAyAEtBcw",
+            "title": "한국어로 숫자를 배우기 큰 숫자 (한자어)#한국어 숫자#큰 숫자#한국어 배우기#한국어 수업#coreano#topik",
+            "channel": "Easy Korean",
+            "thumbnail": "https://i.ytimg.com/vi/21pAyAEtBcw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B2%9C+cheon+1%2C000+%28one+thousand%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "만",
+        "romanization": "man",
+        "english": "10,000 (ten thousand)",
+        "part_of_speech": "number",
+        "example": {
+          "korean": "한국 돈 만 원이에요.",
+          "english": "It's ten thousand won in Korean money."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 만 man 10,000 (ten thousand) beginner",
+            "video_id": "21pAyAEtBcw",
+            "url": "https://www.youtube.com/watch?v=21pAyAEtBcw",
+            "title": "한국어로 숫자를 배우기 큰 숫자 (한자어)#한국어 숫자#큰 숫자#한국어 배우기#한국어 수업#coreano#topik",
+            "channel": "Easy Korean",
+            "thumbnail": "https://i.ytimg.com/vi/21pAyAEtBcw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%8C+man+10%2C000+%28ten+thousand%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "숫자",
+        "romanization": "sutja",
+        "english": "number",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "숫자를 일부터 십까지 써보세요.",
+          "english": "Try writing the numbers from one to ten."
+        },
+        "module": 2,
+        "module_name": "숫자 (Numbers)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 숫자 sutja number beginner",
+            "video_id": "RbqPAd3g76Q",
+            "url": "https://www.youtube.com/watch?v=RbqPAd3g76Q",
+            "title": "Native Korean Numbers #learnkorean #number",
+            "channel": "korean_summer",
+            "thumbnail": "https://i.ytimg.com/vi/RbqPAd3g76Q/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%88%AB%EC%9E%90+sutja+number+beginner"
+          }
+        }
+      },
+      {
+        "korean": "엄마",
+        "romanization": "eomma",
+        "english": "mother",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "우리 엄마는 요리를 잘해요.",
+          "english": "Our mother is good at cooking."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 엄마 eomma mother beginner",
+            "video_id": "gzB_sgfJ0AI",
+            "url": "https://www.youtube.com/watch?v=gzB_sgfJ0AI",
+            "title": "How to pronounce eomma | 엄마 (mom in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/gzB_sgfJ0AI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%97%84%EB%A7%88+eomma+mother+beginner"
+          }
+        }
+      },
+      {
+        "korean": "아빠",
+        "romanization": "appa",
+        "english": "father",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "아빠는 회사에 가요.",
+          "english": "Father goes to work."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 아빠 appa father beginner",
+            "video_id": "ynS5eD8QWX4",
+            "url": "https://www.youtube.com/watch?v=ynS5eD8QWX4",
+            "title": "[Korean] How to pronounce Dad (아빠)",
+            "channel": "K-POP Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/ynS5eD8QWX4/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%95%84%EB%B9%A0+appa+father+beginner"
+          }
+        }
+      },
+      {
+        "korean": "형",
+        "romanization": "hyeong",
+        "english": "older brother (male speaker)",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "형이랑 축구를 해요.",
+          "english": "I play soccer with my older brother."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 형 hyeong older brother (male speaker) beginner",
+            "video_id": "gn5FAJdTMes",
+            "url": "https://www.youtube.com/watch?v=gn5FAJdTMes",
+            "title": "Do you know 'Hyeong~'? #형 #bro #korean #language #call",
+            "channel": "RokiSsem 록희쌤",
+            "thumbnail": "https://i.ytimg.com/vi/gn5FAJdTMes/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%98%95+hyeong+older+brother+%28male+speaker%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "누나",
+        "romanization": "nuna",
+        "english": "older sister (male speaker)",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "누나가 옷을 사줬어요.",
+          "english": "My older sister bought me clothes."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 누나 nuna older sister (male speaker) beginner",
+            "video_id": "qnre9zA3-zg",
+            "url": "https://www.youtube.com/watch?v=qnre9zA3-zg",
+            "title": "#family #familia #coreano #oppa #eonni #dongsaeng #hyeong #nuna #korea  #bitesizekorean #kpop #kdr",
+            "channel": "Bitesize Korean",
+            "thumbnail": "https://i.ytimg.com/vi/qnre9zA3-zg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%88%84%EB%82%98+nuna+older+sister+%28male+speaker%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "오빠",
+        "romanization": "oppa",
+        "english": "older brother (female speaker)",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "우리 오빠는 대학생이에요.",
+          "english": "Our older brother is a college student."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 오빠 oppa older brother (female speaker) beginner",
+            "video_id": "pic8AR5G6bk",
+            "url": "https://www.youtube.com/watch?v=pic8AR5G6bk",
+            "title": "How to Pronounce Oppa (Korean, 오빠)",
+            "channel": "Julien Miquel",
+            "thumbnail": "https://i.ytimg.com/vi/pic8AR5G6bk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%A4%EB%B9%A0+oppa+older+brother+%28female+speaker%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "언니",
+        "romanization": "eonni",
+        "english": "older sister (female speaker)",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "언니랑 카페에 가요.",
+          "english": "I go to a cafe with my older sister."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 언니 eonni older sister (female speaker) beginner",
+            "video_id": "qnre9zA3-zg",
+            "url": "https://www.youtube.com/watch?v=qnre9zA3-zg",
+            "title": "#family #familia #coreano #oppa #eonni #dongsaeng #hyeong #nuna #korea  #bitesizekorean #kpop #kdr",
+            "channel": "Bitesize Korean",
+            "thumbnail": "https://i.ytimg.com/vi/qnre9zA3-zg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%96%B8%EB%8B%88+eonni+older+sister+%28female+speaker%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "남동생",
+        "romanization": "namdongsaeng",
+        "english": "younger brother",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "제 남동생은 귀여워요.",
+          "english": "My younger brother is cute."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 남동생 namdongsaeng younger brother beginner",
+            "video_id": "mo82nPV64Us",
+            "url": "https://www.youtube.com/watch?v=mo82nPV64Us",
+            "title": "How to pronounce namdongsaeng | 남동생 (younger brother in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/mo82nPV64Us/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%82%A8%EB%8F%99%EC%83%9D+namdongsaeng+younger+brother+beginner"
+          }
+        }
+      },
+      {
+        "korean": "여동생",
+        "romanization": "yeodongsaeng",
+        "english": "younger sister",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "여동생이 공부를 해요.",
+          "english": "My younger sister is studying."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 여동생 yeodongsaeng younger sister beginner",
+            "video_id": "GGmmNDXamBg",
+            "url": "https://www.youtube.com/watch?v=GGmmNDXamBg",
+            "title": "Easy Korean Older Sister, Younger Brother, Younger Sister In Korean #koreanlesson #learnkorean",
+            "channel": "Namu Hangul",
+            "thumbnail": "https://i.ytimg.com/vi/GGmmNDXamBg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%97%AC%EB%8F%99%EC%83%9D+yeodongsaeng+younger+sister+beginner"
+          }
+        }
+      },
+      {
+        "korean": "우리",
+        "romanization": "uri",
+        "english": "we/our",
+        "part_of_speech": "pronoun",
+        "example": {
+          "korean": "우리 가족은 네 명이에요.",
+          "english": "Our family has four people."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 우리 uri we/our beginner",
+            "video_id": "L5HtOmKWHGk",
+            "url": "https://www.youtube.com/watch?v=L5HtOmKWHGk",
+            "title": "How to pronounce uri | 우리 (we in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/L5HtOmKWHGk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9A%B0%EB%A6%AC+uri+we%2Four+beginner"
+          }
+        }
+      },
+      {
+        "korean": "사람",
+        "romanization": "saram",
+        "english": "person",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "저 사람은 누구예요?",
+          "english": "Who is that person?"
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 사람 saram person beginner",
+            "video_id": "yUKewgfsmyM",
+            "url": "https://www.youtube.com/watch?v=yUKewgfsmyM",
+            "title": "How to pronounce saram | 사람 (person in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/yUKewgfsmyM/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%82%AC%EB%9E%8C+saram+person+beginner"
+          }
+        }
+      },
+      {
+        "korean": "친구",
+        "romanization": "chingu",
+        "english": "friend",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "친구가 생일 선물을 줬어요.",
+          "english": "A friend gave me a birthday gift."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 친구 chingu friend beginner",
+            "video_id": "OghXi1bU48I",
+            "url": "https://www.youtube.com/watch?v=OghXi1bU48I",
+            "title": "124. 친구를 만나요.   | Korean speaking drills. |  Korean pronunciation. | Korean expression",
+            "channel": "Korean Annie",
+            "thumbnail": "https://i.ytimg.com/vi/OghXi1bU48I/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%B9%9C%EA%B5%AC+chingu+friend+beginner"
+          }
+        }
+      },
+      {
+        "korean": "동료",
+        "romanization": "dongnyo",
+        "english": "colleague",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "회사 동료와 점심을 먹어요.",
+          "english": "I eat lunch with a colleague."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 동료 colleague beginner Korean vocabulary",
+            "video_id": "eEiyxxXVvYE",
+            "url": "https://www.youtube.com/watch?v=eEiyxxXVvYE",
+            "title": "How to pronounce dongryoga | 동료가 (A colleague in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/eEiyxxXVvYE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%8F%99%EB%A3%8C+colleague+beginner+Korean+vocabulary"
+          }
+        }
+      },
+      {
+        "korean": "남자",
+        "romanization": "namja",
+        "english": "man",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "키가 큰 남자가 있어요.",
+          "english": "There is a tall man."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 남자 namja man beginner",
+            "video_id": "GlXGb6ptyKc",
+            "url": "https://www.youtube.com/watch?v=GlXGb6ptyKc",
+            "title": "How to pronounce namja | 남자 (man in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/GlXGb6ptyKc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%82%A8%EC%9E%90+namja+man+beginner"
+          }
+        }
+      },
+      {
+        "korean": "여자",
+        "romanization": "yeoja",
+        "english": "woman",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "저 여자는 제 친구예요.",
+          "english": "That woman is my friend."
+        },
+        "module": 4,
+        "module_name": "가족과 사람 (Family & People)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 여자 yeoja woman beginner",
+            "video_id": "UvRdyj_6XPU",
+            "url": "https://www.youtube.com/watch?v=UvRdyj_6XPU",
+            "title": "How to pronounce yeoja | 여자 (female in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/UvRdyj_6XPU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%97%AC%EC%9E%90+yeoja+woman+beginner"
+          }
+        }
+      },
+      {
+        "korean": "월요일",
+        "romanization": "woryoil",
+        "english": "Monday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "월요일은 수업이 많아요.",
+          "english": "I have many classes on Monday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 월요일 woryoil Monday beginner",
+            "video_id": "WEWskv9Iojc",
+            "url": "https://www.youtube.com/watch?v=WEWskv9Iojc",
+            "title": "How to pronounce woryoil | 월요일 (monday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/WEWskv9Iojc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9B%94%EC%9A%94%EC%9D%BC+woryoil+Monday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "화요일",
+        "romanization": "hwayoil",
+        "english": "Tuesday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "화요일 아침에 만나요.",
+          "english": "Let's meet on Tuesday morning."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 화요일 hwayoil Tuesday beginner",
+            "video_id": "luF5OZN5OEs",
+            "url": "https://www.youtube.com/watch?v=luF5OZN5OEs",
+            "title": "How to pronounce hwayoil | 화요일 (tuesday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/luF5OZN5OEs/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%99%94%EC%9A%94%EC%9D%BC+hwayoil+Tuesday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "수요일",
+        "romanization": "suyoil",
+        "english": "Wednesday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "수요일은 보통 바빠요.",
+          "english": "I'm usually busy on Wednesday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 수요일 suyoil Wednesday beginner",
+            "video_id": "zechYgoi7io",
+            "url": "https://www.youtube.com/watch?v=zechYgoi7io",
+            "title": "How to pronounce suyoil | 수요일 (wednesday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/zechYgoi7io/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%88%98%EC%9A%94%EC%9D%BC+suyoil+Wednesday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "목요일",
+        "romanization": "mogyoil",
+        "english": "Thursday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "목요일에 영화 봐요.",
+          "english": "Let's watch a movie on Thursday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 목요일 mogyoil Thursday beginner",
+            "video_id": "zaDOJ9GNKyk",
+            "url": "https://www.youtube.com/watch?v=zaDOJ9GNKyk",
+            "title": "How to pronounce mogyoil | 목요일 (thursday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/zaDOJ9GNKyk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%AA%A9%EC%9A%94%EC%9D%BC+mogyoil+Thursday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "금요일",
+        "romanization": "geumyoil",
+        "english": "Friday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "금요일 저녁에 약속 있어요.",
+          "english": "I have plans on Friday evening."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 금요일 geumyoil Friday beginner",
+            "video_id": "XaJcRsWJKts",
+            "url": "https://www.youtube.com/watch?v=XaJcRsWJKts",
+            "title": "How to pronounce geumyoil | 금요일 (friday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/XaJcRsWJKts/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B8%88%EC%9A%94%EC%9D%BC+geumyoil+Friday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "토요일",
+        "romanization": "toyoil",
+        "english": "Saturday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "토요일에 푹 쉬어요.",
+          "english": "I take a good rest on Saturday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 토요일 toyoil Saturday beginner",
+            "video_id": "hMhNgCifrUg",
+            "url": "https://www.youtube.com/watch?v=hMhNgCifrUg",
+            "title": "How to pronounce toyoil | 토요일 (Saturday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/hMhNgCifrUg/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%86%A0%EC%9A%94%EC%9D%BC+toyoil+Saturday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "일요일",
+        "romanization": "iryoil",
+        "english": "Sunday",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "일요일에 교회에 가요.",
+          "english": "I go to church on Sunday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 일요일 iryoil Sunday beginner",
+            "video_id": "OaoDEuKhvAE",
+            "url": "https://www.youtube.com/watch?v=OaoDEuKhvAE",
+            "title": "How to pronounce iryoil | 일요일 (sunday in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/OaoDEuKhvAE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%BC%EC%9A%94%EC%9D%BC+iryoil+Sunday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "오늘",
+        "romanization": "oneul",
+        "english": "today",
+        "part_of_speech": "adverb",
+        "example": {
+          "korean": "오늘 날씨가 정말 좋아요.",
+          "english": "The weather is really good today."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 오늘 oneul today beginner",
+            "video_id": "SXiBx3DmPSU",
+            "url": "https://www.youtube.com/watch?v=SXiBx3DmPSU",
+            "title": "Learn Korean: 오늘 (Oneul) 📅 Today | Daily Korean Expression",
+            "channel": "Learn Korean Daily",
+            "thumbnail": "https://i.ytimg.com/vi/SXiBx3DmPSU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%A4%EB%8A%98+oneul+today+beginner"
+          }
+        }
+      },
+      {
+        "korean": "내일",
+        "romanization": "naeil",
+        "english": "tomorrow",
+        "part_of_speech": "adverb",
+        "example": {
+          "korean": "내일 학교에 가요?",
+          "english": "Are you going to school tomorrow?"
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 내일 naeil tomorrow beginner",
+            "video_id": "UGfEclDFmZI",
+            "url": "https://www.youtube.com/watch?v=UGfEclDFmZI",
+            "title": "How to pronounce naeil | 내일 (tomorrow in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/UGfEclDFmZI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%82%B4%EC%9D%BC+naeil+tomorrow+beginner"
+          }
+        }
+      },
+      {
+        "korean": "어제",
+        "romanization": "eoje",
+        "english": "yesterday",
+        "part_of_speech": "adverb",
+        "example": {
+          "korean": "어제는 친구를 만났어요.",
+          "english": "I met a friend yesterday."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 어제 eoje yesterday beginner",
+            "video_id": "PUDuj1swN4s",
+            "url": "https://www.youtube.com/watch?v=PUDuj1swN4s",
+            "title": "Learn Korean Word “어제” [eoje] (kecha)",
+            "channel": "Paulino",
+            "thumbnail": "https://i.ytimg.com/vi/PUDuj1swN4s/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%96%B4%EC%A0%9C+eoje+yesterday+beginner"
+          }
+        }
+      },
+      {
+        "korean": "주말",
+        "romanization": "jumal",
+        "english": "weekend",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "주말에 같이 놀아요.",
+          "english": "Let's hang out on the weekend."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 주말 jumal weekend beginner",
+            "video_id": "S-9sZ4k0bhk",
+            "url": "https://www.youtube.com/watch?v=S-9sZ4k0bhk",
+            "title": "How to pronounce jumal | 주말 (weekend in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/S-9sZ4k0bhk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A3%BC%EB%A7%90+jumal+weekend+beginner"
+          }
+        }
+      },
+      {
+        "korean": "시",
+        "romanization": "si",
+        "english": "hour/o'clock",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "두 시에 끝나요.",
+          "english": "It ends at two o'clock."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 시 si hour/o'clock beginner",
+            "video_id": "t_jii2Tuc-Y",
+            "url": "https://www.youtube.com/watch?v=t_jii2Tuc-Y",
+            "title": "Learn Korean Time Hour (o'clock) - one o'clock, two o'clock, etc",
+            "channel": "Korean Emo",
+            "thumbnail": "https://i.ytimg.com/vi/t_jii2Tuc-Y/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%9C+si+hour%2Fo%27clock+beginner"
+          }
+        }
+      },
+      {
+        "korean": "분",
+        "romanization": "bun",
+        "english": "minute",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "십 분 기다리세요.",
+          "english": "Please wait for ten minutes."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 분 bun minute beginner",
+            "video_id": "XhVkzsbfipM",
+            "url": "https://www.youtube.com/watch?v=XhVkzsbfipM",
+            "title": "How to pronounce bun | 분 (minute in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/XhVkzsbfipM/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B6%84+bun+minute+beginner"
+          }
+        }
+      },
+      {
+        "korean": "시간",
+        "romanization": "sigan",
+        "english": "time",
+        "part_of_speech": "noun",
+        "example": {
+          "korean": "공부할 시간이 없어요.",
+          "english": "I don't have time to study."
+        },
+        "module": 6,
+        "module_name": "요일과 시간 (Days & Time)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 시간 sigan time beginner",
+            "video_id": "ziuoFw4oSd8",
+            "url": "https://www.youtube.com/watch?v=ziuoFw4oSd8",
+            "title": "How to pronounce sigan | 시간 (hour in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/ziuoFw4oSd8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%9C%EA%B0%84+sigan+time+beginner"
+          }
+        }
+      },
+      {
+        "korean": "먹다",
+        "romanization": "meokda",
+        "english": "to eat",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "사과를 먹어요.",
+          "english": "I eat an apple."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 먹다 meokda to eat beginner",
+            "video_id": "aaNX582AmuU",
+            "url": "https://www.youtube.com/watch?v=aaNX582AmuU",
+            "title": "MEOKDA | WORD NO. 61 | 1 KOREAN WORD A DAY | DAE-HANGUL",
+            "channel": "Learn Korean with Dae-Hangul",
+            "thumbnail": "https://i.ytimg.com/vi/aaNX582AmuU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A8%B9%EB%8B%A4+meokda+to+eat+beginner"
+          }
+        }
+      },
+      {
+        "korean": "자다",
+        "romanization": "jada",
+        "english": "to sleep",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "일찍 자요.",
+          "english": "I sleep early."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 자다 jada to sleep beginner",
+            "video_id": "QJhpcw8GEDo",
+            "url": "https://www.youtube.com/watch?v=QJhpcw8GEDo",
+            "title": "How to pronounce jada | 자다 (sleep in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/QJhpcw8GEDo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9E%90%EB%8B%A4+jada+to+sleep+beginner"
+          }
+        }
+      },
+      {
+        "korean": "가다",
+        "romanization": "gada",
+        "english": "to go",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "공원에 가요.",
+          "english": "I go to the park."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 가다 gada to go beginner",
+            "video_id": "DlwlFKhsTN0",
+            "url": "https://www.youtube.com/watch?v=DlwlFKhsTN0",
+            "title": "Learn Basic Korean Verbs | Ep.1 – To go (가다)",
+            "channel": "Real Korean Speaking",
+            "thumbnail": "https://i.ytimg.com/vi/DlwlFKhsTN0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B0%80%EB%8B%A4+gada+to+go+beginner"
+          }
+        }
+      },
+      {
+        "korean": "보다",
+        "romanization": "boda",
+        "english": "to see/watch",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "영화를 봐요.",
+          "english": "I watch a movie."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 보다 boda to see/watch beginner",
+            "video_id": "TnnlETQ__GQ",
+            "url": "https://www.youtube.com/watch?v=TnnlETQ__GQ",
+            "title": "How to pronounce boda | 보다 (see in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/TnnlETQ__GQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B3%B4%EB%8B%A4+boda+to+see%2Fwatch+beginner"
+          }
+        }
+      },
+      {
+        "korean": "공부하다",
+        "romanization": "gongbuhada",
+        "english": "to study",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "한국어를 공부해요.",
+          "english": "I study Korean."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 공부하다 gongbuhada to study beginner",
+            "video_id": "RN_18wb005A",
+            "url": "https://www.youtube.com/watch?v=RN_18wb005A",
+            "title": "50 Most Basic Korean Words for beginners.  Learn Korean in just four minutes.",
+            "channel": "All YU Need",
+            "thumbnail": "https://i.ytimg.com/vi/RN_18wb005A/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4+gongbuhada+to+study+beginner"
+          }
+        }
+      },
+      {
+        "korean": "일하다",
+        "romanization": "ilhada",
+        "english": "to work",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "오늘 일해요.",
+          "english": "I work today."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 일하다 ilhada to work beginner",
+            "video_id": "Yu-oMMNyF-U",
+            "url": "https://www.youtube.com/watch?v=Yu-oMMNyF-U",
+            "title": "How to pronounce ilhada | 일하다 (work in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/Yu-oMMNyF-U/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%BC%ED%95%98%EB%8B%A4+ilhada+to+work+beginner"
+          }
+        }
+      },
+      {
+        "korean": "사다",
+        "romanization": "sada",
+        "english": "to buy",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "옷을 사요.",
+          "english": "I buy clothes."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 사다 sada to buy beginner",
+            "video_id": "MxXxtbZiXOw",
+            "url": "https://www.youtube.com/watch?v=MxXxtbZiXOw",
+            "title": "[Learn korean] 사다 Sada - to buy and to purchase in Korean.",
+            "channel": "Brown Korea",
+            "thumbnail": "https://i.ytimg.com/vi/MxXxtbZiXOw/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%82%AC%EB%8B%A4+sada+to+buy+beginner"
+          }
+        }
+      },
+      {
+        "korean": "마시다",
+        "romanization": "masida",
+        "english": "to drink",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "물을 마셔요.",
+          "english": "I drink water."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 마시다 masida to drink beginner",
+            "video_id": "RN_18wb005A",
+            "url": "https://www.youtube.com/watch?v=RN_18wb005A",
+            "title": "50 Most Basic Korean Words for beginners.  Learn Korean in just four minutes.",
+            "channel": "All YU Need",
+            "thumbnail": "https://i.ytimg.com/vi/RN_18wb005A/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%88%EC%8B%9C%EB%8B%A4+masida+to+drink+beginner"
+          }
+        }
+      },
+      {
+        "korean": "듣다",
+        "romanization": "deutda",
+        "english": "to listen",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "음악을 들어요.",
+          "english": "I listen to music."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 듣다 deutda to listen beginner",
+            "video_id": "DdeDayKPHdQ",
+            "url": "https://www.youtube.com/watch?v=DdeDayKPHdQ",
+            "title": "한국어 동사3 #learnkorean #한국어",
+            "channel": "Easy Korean in English | 쉬운 한국어",
+            "thumbnail": "https://i.ytimg.com/vi/DdeDayKPHdQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%93%A3%EB%8B%A4+deutda+to+listen+beginner"
+          }
+        }
+      },
+      {
+        "korean": "말하다",
+        "romanization": "malhada",
+        "english": "to speak",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "한국어로 말해요.",
+          "english": "I speak in Korean."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 말하다 malhada to speak beginner",
+            "video_id": "pa8H2-OgrWo",
+            "url": "https://www.youtube.com/watch?v=pa8H2-OgrWo",
+            "title": "How to use 말하다 and  이야기하다",
+            "channel": "Kolancu한국어 문학 문화",
+            "thumbnail": "https://i.ytimg.com/vi/pa8H2-OgrWo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%A7%90%ED%95%98%EB%8B%A4+malhada+to+speak+beginner"
+          }
+        }
+      },
+      {
+        "korean": "오다",
+        "romanization": "oda",
+        "english": "to come",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "집에 오세요.",
+          "english": "Please come home."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 오다 oda to come beginner",
+            "video_id": "tK9Miy5vcxM",
+            "url": "https://www.youtube.com/watch?v=tK9Miy5vcxM",
+            "title": "How to pronounce oda | 오다 (come in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/tK9Miy5vcxM/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%98%A4%EB%8B%A4+oda+to+come+beginner"
+          }
+        }
+      },
+      {
+        "korean": "입다",
+        "romanization": "ipda",
+        "english": "to wear",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "치마를 입어요.",
+          "english": "I wear a skirt."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 입다 ipda to wear beginner",
+            "video_id": "9vLqnTFeiu8",
+            "url": "https://www.youtube.com/watch?v=9vLqnTFeiu8",
+            "title": "Korean Vocabularies 101 || Useful Korean Verbs for EPS-TOPIK test || Reviewer and Study Guide 2021",
+            "channel": "Stephen John ArdamoyTV",
+            "thumbnail": "https://i.ytimg.com/vi/9vLqnTFeiu8/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9E%85%EB%8B%A4+ipda+to+wear+beginner"
+          }
+        }
+      },
+      {
+        "korean": "읽다",
+        "romanization": "ikda",
+        "english": "to read",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "책을 읽어요.",
+          "english": "I read a book."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 읽다 ikda to read beginner",
+            "video_id": "G_aL1iq4Roc",
+            "url": "https://www.youtube.com/watch?v=G_aL1iq4Roc",
+            "title": "How to Read Korean (Hangul) | Learn in Just 20 Minutes!",
+            "channel": "Korean with Ina",
+            "thumbnail": "https://i.ytimg.com/vi/G_aL1iq4Roc/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9D%BD%EB%8B%A4+ikda+to+read+beginner"
+          }
+        }
+      },
+      {
+        "korean": "쓰다",
+        "romanization": "sseuda",
+        "english": "to write",
+        "part_of_speech": "verb",
+        "example": {
+          "korean": "일기를 쓰세요.",
+          "english": "Please write a diary."
+        },
+        "module": 7,
+        "module_name": "일상 동사 (Daily Verbs)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 쓰다 sseuda to write beginner",
+            "video_id": "JXiwstyZDgQ",
+            "url": "https://www.youtube.com/watch?v=JXiwstyZDgQ",
+            "title": "Korean  Vocabulary | Reading and Writing 📚 📖 ✏️ (with pronunciation) [romanization ⬇️]",
+            "channel": "Korecedil",
+            "thumbnail": "https://i.ytimg.com/vi/JXiwstyZDgQ/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%93%B0%EB%8B%A4+sseuda+to+write+beginner"
+          }
+        }
+      },
+      {
+        "korean": "좋다",
+        "romanization": "jota",
+        "english": "good/like",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "기분이 좋아요.",
+          "english": "I feel good."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 좋다 jota good/like beginner",
+            "video_id": "na3pilIcfOk",
+            "url": "https://www.youtube.com/watch?v=na3pilIcfOk",
+            "title": "How to pronounce jota | 좋다 (good night in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/na3pilIcfOk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A2%8B%EB%8B%A4+jota+good%2Flike+beginner"
+          }
+        }
+      },
+      {
+        "korean": "슬프다",
+        "romanization": "seulpeuda",
+        "english": "sad",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "너무 슬퍼요.",
+          "english": "I am so sad."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 슬프다 seulpeuda sad beginner",
+            "video_id": "HXxITDYChGE",
+            "url": "https://www.youtube.com/watch?v=HXxITDYChGE",
+            "title": "How to pronounce seulpeuda | 슬프다 (sad in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/HXxITDYChGE/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8A%AC%ED%94%84%EB%8B%A4+seulpeuda+sad+beginner"
+          }
+        }
+      },
+      {
+        "korean": "행복하다",
+        "romanization": "haengbokada",
+        "english": "happy",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "정말 행복해요.",
+          "english": "I am really happy."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 행복하다 haengbokada happy beginner",
+            "video_id": "G0SxOShCZGU",
+            "url": "https://www.youtube.com/watch?v=G0SxOShCZGU",
+            "title": "Learn Korean Word “to be happy” 행복하다 [haengbokada]",
+            "channel": "Paulino",
+            "thumbnail": "https://i.ytimg.com/vi/G0SxOShCZGU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%96%89%EB%B3%B5%ED%95%98%EB%8B%A4+haengbokada+happy+beginner"
+          }
+        }
+      },
+      {
+        "korean": "피곤하다",
+        "romanization": "pigonhada",
+        "english": "tired",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "오늘 피곤해요.",
+          "english": "I am tired today."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 피곤하다 pigonhada tired beginner",
+            "video_id": "cpcHCtiLWUU",
+            "url": "https://www.youtube.com/watch?v=cpcHCtiLWUU",
+            "title": "Learn Korean Word “to be tired” 피곤하다 [pigonhada]",
+            "channel": "Paulino",
+            "thumbnail": "https://i.ytimg.com/vi/cpcHCtiLWUU/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%94%BC%EA%B3%A4%ED%95%98%EB%8B%A4+pigonhada+tired+beginner"
+          }
+        }
+      },
+      {
+        "korean": "배부르다",
+        "romanization": "baebureuda",
+        "english": "full (after eating)",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "정말 배불러요.",
+          "english": "I am really full."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 배부르다 baebureuda full (after eating) beginner",
+            "video_id": "4dxdTDGT2-U",
+            "url": "https://www.youtube.com/watch?v=4dxdTDGT2-U",
+            "title": "You can't unhear this",
+            "channel": "Daily Dose Of Korean",
+            "thumbnail": "https://i.ytimg.com/vi/4dxdTDGT2-U/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%B0%EB%B6%80%EB%A5%B4%EB%8B%A4+baebureuda+full+%28after+eating%29+beginner"
+          }
+        }
+      },
+      {
+        "korean": "재밌다",
+        "romanization": "jaemitda",
+        "english": "fun",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "영화가 재밌어요.",
+          "english": "The movie is fun."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 재밌다 jaemitda fun beginner",
+            "video_id": "pXKPCiTcRds",
+            "url": "https://www.youtube.com/watch?v=pXKPCiTcRds",
+            "title": "How to pronounce jaemitda | 재밌다 (It's fun in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/pXKPCiTcRds/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%9E%AC%EB%B0%8C%EB%8B%A4+jaemitda+fun+beginner"
+          }
+        }
+      },
+      {
+        "korean": "힘들다",
+        "romanization": "himdeulda",
+        "english": "difficult/tough",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "일이 힘들어요.",
+          "english": "The work is difficult."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 힘들다 himdeulda difficult/tough beginner",
+            "video_id": "eQGQqynf19o",
+            "url": "https://www.youtube.com/watch?v=eQGQqynf19o",
+            "title": "How to say \"You're hard to get a hold of\" in Korean / 얼굴 보기 힘들다 / Learn Korean expression",
+            "channel": "Korean Beyond Basics",
+            "thumbnail": "https://i.ytimg.com/vi/eQGQqynf19o/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%ED%9E%98%EB%93%A4%EB%8B%A4+himdeulda+difficult%2Ftough+beginner"
+          }
+        }
+      },
+      {
+        "korean": "기쁘다",
+        "romanization": "gippeuda",
+        "english": "glad",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "정말 기뻐요.",
+          "english": "I am really glad."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 기쁘다 gippeuda glad beginner",
+            "video_id": "UUhL-ge6AS0",
+            "url": "https://www.youtube.com/watch?v=UUhL-ge6AS0",
+            "title": "How to pronounce gippeuda | 기쁘다 (happy in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/UUhL-ge6AS0/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B8%B0%EC%81%98%EB%8B%A4+gippeuda+glad+beginner"
+          }
+        }
+      },
+      {
+        "korean": "싫다",
+        "romanization": "silta",
+        "english": "dislike",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "이거 싫어요.",
+          "english": "I dislike this."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 싫다 silta dislike beginner",
+            "video_id": "3ljiADe0a5E",
+            "url": "https://www.youtube.com/watch?v=3ljiADe0a5E",
+            "title": "How to pronounce silta | 싫다 (Hate in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/3ljiADe0a5E/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%AB%EB%8B%A4+silta+dislike+beginner"
+          }
+        }
+      },
+      {
+        "korean": "괜찮다",
+        "romanization": "gwaenchanta",
+        "english": "okay",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "저는 괜찮습니다.",
+          "english": "I am okay."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 괜찮다 gwaenchanta okay beginner",
+            "video_id": "2D4whmMe-NA",
+            "url": "https://www.youtube.com/watch?v=2D4whmMe-NA",
+            "title": "How to pronounce gwaenchanta | 괜찮다 (It's okay in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/2D4whmMe-NA/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EA%B4%9C%EC%B0%AE%EB%8B%A4+gwaenchanta+okay+beginner"
+          }
+        }
+      },
+      {
+        "korean": "아프다",
+        "romanization": "apeuda",
+        "english": "sick/hurt",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "머리가 아파요.",
+          "english": "My head hurts."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "아프다 Korean pronunciation",
+            "video_id": "dJ7lAL-jgOk",
+            "url": "https://www.youtube.com/watch?v=dJ7lAL-jgOk",
+            "title": "How to pronounce apeuda | 아프다 (sick in Korean)",
+            "channel": "Korean Pronunciation",
+            "thumbnail": "https://i.ytimg.com/vi/dJ7lAL-jgOk/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=%EC%95%84%ED%94%84%EB%8B%A4+Korean+pronunciation"
+          }
+        }
+      },
+      {
+        "korean": "바쁘다",
+        "romanization": "bappeuda",
+        "english": "busy",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "오늘 바빠요.",
+          "english": "I am busy today."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 바쁘다 bappeuda busy beginner",
+            "video_id": "hGfi20ga-Lo",
+            "url": "https://www.youtube.com/watch?v=hGfi20ga-Lo",
+            "title": "How to Pronounce ㅃ 🇰🇷  Learn Korean Language | Korean double consonant for beginners | 한글 쌍자음 #3 ㅃ",
+            "channel": "DoKorean",
+            "thumbnail": "https://i.ytimg.com/vi/hGfi20ga-Lo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EB%B0%94%EC%81%98%EB%8B%A4+bappeuda+busy+beginner"
+          }
+        }
+      },
+      {
+        "korean": "심심하다",
+        "romanization": "simsimhada",
+        "english": "bored",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "너무 심심해요.",
+          "english": "I am so bored."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 심심하다 simsimhada bored beginner",
+            "video_id": "9H514kHzdWI",
+            "url": "https://www.youtube.com/watch?v=9H514kHzdWI",
+            "title": "Korean Lesson: How to Order Pizza in Korean! (Beginner Conversation & Listening Practice) 🍕",
+            "channel": "Learn Korean with Min-jun and Seo-yeon",
+            "thumbnail": "https://i.ytimg.com/vi/9H514kHzdWI/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%8B%AC%EC%8B%AC%ED%95%98%EB%8B%A4+simsimhada+bored+beginner"
+          }
+        }
+      },
+      {
+        "korean": "졸리다",
+        "romanization": "jollida",
+        "english": "sleepy",
+        "part_of_speech": "adjective",
+        "example": {
+          "korean": "너무 졸려요.",
+          "english": "I am so sleepy."
+        },
+        "module": 10,
+        "module_name": "감정과 상태 (Feelings & States)",
+        "media": {
+          "youtube": {
+            "verified": true,
+            "query": "Korean pronunciation 졸리다 jollida sleepy beginner",
+            "video_id": "bK0Mz4I2Pzo",
+            "url": "https://www.youtube.com/watch?v=bK0Mz4I2Pzo",
+            "title": "How to say 'I can't sleep' in Korean(with examples)",
+            "channel": "Tyler Ssaem Korean",
+            "thumbnail": "https://i.ytimg.com/vi/bK0Mz4I2Pzo/default.jpg",
+            "search_url": "https://www.youtube.com/results?search_query=Korean+pronunciation+%EC%A1%B8%EB%A6%AC%EB%8B%A4+jollida+sleepy+beginner"
+          }
+        }
+      }
+    ]
+  },
+  "intermediate": {
+    "food": [],
+    "travel": [],
+    "daily_life": []
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.env
+*.log
+.git/
+.gitignore
+cloud/
+~$*
+vocab_bank_base.json
+CS4680 Project Idea Presentation_ CoreKorean.pptx
+Final Project Report Structure.docx
+Project Identification HW1.docx

@@ -8,6 +8,7 @@ import os
 import json
 import uuid
 import random
+import re
 from pathlib import Path
 
 load_dotenv()
@@ -21,6 +22,7 @@ if STATIC_DIR.exists():
 sessions = {}
 vocab_store = []
 module_store = {}
+doc_chunks = []
 
 class LessonRequest(BaseModel):
     session_id: str
@@ -30,6 +32,10 @@ class LessonRequest(BaseModel):
 class SearchRequest(BaseModel):
     query: str = Field(min_length=1)
     k: int = 14
+
+class RagContextRequest(BaseModel):
+    query: str = Field(min_length=1)
+    k: int = 3
 
 @app.get("/")
 def root():
@@ -92,6 +98,49 @@ def ingest_vocab():
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.post("/ingest-docs")
+def ingest_docs():
+    global doc_chunks
+
+    if doc_chunks:
+        return {
+            "message": "Course documents already ingested. Skipping reload.",
+            "chunks_loaded": len(doc_chunks),
+            "sources": sorted({chunk["source"] for chunk in doc_chunks}),
+        }
+
+    try:
+        pdf_paths = [
+            Path("Korean_Vocabulary_140_Final.pdf"),
+        ]
+        loaded = []
+        for path in pdf_paths:
+            if not path.exists():
+                continue
+            text = extract_pdf_text(path)
+            for index, chunk_text in enumerate(chunk_text_by_words(text)):
+                loaded.append({
+                    "id": f"{path.stem}-{index + 1}",
+                    "source": path.name,
+                    "text": chunk_text,
+                })
+
+        doc_chunks = loaded
+        return {
+            "message": "Course documents ingested successfully",
+            "chunks_loaded": len(doc_chunks),
+            "sources": sorted({chunk["source"] for chunk in doc_chunks}),
+        }
+
+    except ImportError:
+        raise HTTPException(
+            status_code=500,
+            detail="pypdf is not installed. Run pip install -r requirements.txt."
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 def flatten_vocab(raw_vocab):
     if isinstance(raw_vocab, list):
         return [
@@ -123,6 +172,60 @@ def flatten_vocab(raw_vocab):
                     "media": item.get("media", {}),
                 })
     return words
+
+
+def extract_pdf_text(path: Path) -> str:
+    from pypdf import PdfReader
+
+    reader = PdfReader(str(path))
+    pages = []
+    for page in reader.pages:
+        pages.append(page.extract_text() or "")
+    return "\n".join(pages)
+
+
+def chunk_text_by_words(text: str, chunk_size: int = 170, overlap: int = 35):
+    words = text.split()
+    chunks = []
+    start = 0
+    while start < len(words):
+        end = min(start + chunk_size, len(words))
+        chunk = " ".join(words[start:end]).strip()
+        if chunk:
+            chunks.append(chunk)
+        if end == len(words):
+            break
+        start = max(0, end - overlap)
+    return chunks
+
+
+def ensure_docs_loaded():
+    if not doc_chunks:
+        ingest_docs()
+
+
+def query_terms(query: str):
+    return [
+        term for term in re.findall(r"[\w가-힣]+", query.lower())
+        if len(term) > 1
+    ]
+
+
+def retrieve_course_context(query: str, k: int = 3):
+    ensure_docs_loaded()
+    terms = query_terms(query)
+    if not terms:
+        return doc_chunks[:k]
+
+    scored = []
+    for chunk in doc_chunks:
+        text = chunk["text"].lower()
+        score = sum(text.count(term) for term in terms)
+        if score:
+            scored.append((score, chunk))
+
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [chunk for _, chunk in scored[:k]]
 
 
 def get_vocab_path():
@@ -335,16 +438,30 @@ def search_vocab(request: SearchRequest):
         "results": results
     }
 
+
+@app.post("/api/rag-context")
+def rag_context(request: RagContextRequest):
+    chunks = retrieve_course_context(request.query, request.k)
+    return {
+        "query": request.query,
+        "chunks": chunks,
+    }
+
 @app.post("/lesson")
 def generate_lesson(request: LessonRequest):
     if request.session_id not in sessions:
         raise HTTPException(status_code=404, detail="Invalid session_id")
 
     retrieved_vocab = retrieve_vocab(request.topic, request.k)
+    course_chunks = retrieve_course_context(request.topic, 3)
 
     context = "\n".join(
         f"- {item['korean']} = {item['english']} ({item['module_name']})"
         for item in retrieved_vocab
+    )
+    course_context = "\n\n".join(
+        f"[{chunk['source']} / {chunk['id']}]\n{chunk['text']}"
+        for chunk in course_chunks
     )
 
     prompt = f"""
@@ -358,6 +475,9 @@ Create a beginner-friendly lesson for this topic:
 
 Context:
 {context}
+
+Retrieved course material:
+{course_context}
 
 Your response must include:
 
@@ -385,12 +505,14 @@ Your response must include:
         sessions[request.session_id].append({
             "topic": request.topic,
             "retrieved_vocab": retrieved_vocab,
+            "retrieved_course_context": course_chunks,
             "lesson": response.text
         })
 
         return {
             "topic": request.topic,
             "retrieved_vocab": retrieved_vocab,
+            "retrieved_course_context": course_chunks,
             "lesson": response.text
         }
 
