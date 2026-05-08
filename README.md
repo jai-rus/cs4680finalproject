@@ -7,6 +7,13 @@ CoreKorean is a Korean vocabulary learning web app built with:
 - **Gemini** for lesson generation and quiz-answer explanations
 - **YouTube integration** for pronunciation and usage video links
 
+ ## Contributors
+
+- Alison Ching
+- Hyewon Kang
+- Jairus Legion
+- Cynthia Nguyen
+
 ## Features
 
 - Browse Korean vocabulary by module
